@@ -8,6 +8,8 @@ $govuk-global-styles: true;
 @import 'patterns/check-your-answers';
 @import 'patterns/related-items';
 @import 'patterns/task-list';
+@import 'patterns/_header-internal';
+@import 'patterns/_footer-internal'
 
 //cookie-banner
 @import "../../../docs/assets/sass/cookie-banner";
@@ -58,3 +60,68 @@ $govuk-global-styles: true;
 // @import 'patterns/task-list';
 
 // Add extra styles here, or re-organise the Sass files in whichever way makes most sense to you
+
+// Path to assets for use with the file-url function
+// in the govuk frontend toolkit's url-helpers partial
+$path: "/public/images/";
+
+// Import Inter UI font
+@import url('https://rsms.me/inter/inter-ui.css');
+
+// Import GOV.UK elements from /govuk-modules/, this will import the frontend toolkit and some base styles.
+// Take a look in /govuk-modules/_govuk-elements.scss to see which files are imported.
+@import 'govuk-elements';
+
+// Take a look at in app/assets/sass/unbranded/ to see which files are imported.
+@import 'unbranded';
+
+// HO styles
+@import "patterns/header-internal";
+@import "patterns/footer-internal";
+
+
+// Style overrides
+
+.nta-font {
+  font-family: "nta", Arial, sans-serif!important;
+}
+
+header, footer {
+  background-color: $white;
+}
+
+main, .heading-section, .heading-xlarge, .heading-large, .heading-medium, .heading-small, .lede, .navbar, table td, .navbar .navbar__list-items li a {
+  font-family: 'Inter UI', sans-serif;
+  line-height: 1.45!important;
+}
+
+body {
+  font-family: 'Inter UI', sans-serif;
+  line-height: 1.45!important;
+  background-color: #f3f3f3;
+}
+
+main, table td, .navbar .navbar__list-items li a {
+  font-size: 18px;
+}
+
+.lede {
+  font-size: 22px;
+  margin-bottom: 1.5em;
+}
+
+@media (max-width: 640px) {
+
+  body, main, .heading-section, .heading-xlarge, .heading-large, .heading-medium, .heading-small, .lede, .navbar, table td, .navbar .navbar__list-items li a {
+    line-height: 1.35!important;
+  }
+
+  main, table td, .navbar .navbar__list-items li a {
+    font-size: 15px;
+  }
+
+  .lede {
+    font-size: 17.5px;
+    margin-bottom: 1.5em;
+  }
+}
