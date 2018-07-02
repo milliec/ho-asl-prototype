@@ -1,0 +1,653 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9bf66283-7ea0-49f8-bc0b-23a03c334d07" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CONTRIBUTING.md" beforeDir="false" afterPath="$PROJECT_DIR$/CONTRIBUTING.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VERSION.txt" beforeDir="false" afterPath="$PROJECT_DIR$/VERSION.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/application.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/javascripts/application.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/bind.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/sass/application.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/sass/application.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/sass/patterns/_footer-internal.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/sass/patterns/_header-internal.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/sass/patterns/check-your-answers.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/sass/patterns/related-items.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/sass/patterns/task-list.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/sass/unbranded.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/sass/unbranded.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/ho_template.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/includes/scripts.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/includes/scripts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/create-release.sh" beforeDir="false" afterPath="$PROJECT_DIR$/create-release.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/assets/javascripts/cookie-banner.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/assets/javascripts/docs.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/javascripts/docs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/assets/sass/_cookie-banner.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/assets/sass/docs-ie8.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/sass/docs-ie8.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/assets/sass/docs.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/sass/docs.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/documentation/install/developer-install-instructions.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/documentation/install/developer-install-instructions.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/documentation/install/install-the-kit.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/documentation/install/install-the-kit.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/documentation/install/introduction.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/documentation/install/introduction.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/documentation/install/requirements.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/documentation/install/requirements.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/documentation/principles.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/documentation/principles.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/documentation/tips-and-tricks.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/documentation/tips-and-tricks.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/documentation/updating-the-kit.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/documentation/updating-the-kit.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/documentation/using-verify.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/documentation/using-verify.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/documentation/writing-css.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/documentation/writing-css.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/documentation_routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/documentation_routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/linting.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/linting.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/views/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/views/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/views/cookies.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/views/documentation_template.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/views/documentation_template.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/views/examples/blank-govuk.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/views/examples/blank-govuk.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/views/examples/blank-unbranded.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/views/examples/blank-unbranded.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/views/examples/check-your-answers-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/views/examples/check-your-answers-page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/views/examples/confirmation-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/views/examples/confirmation-page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/views/examples/override-service-name.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/views/examples/override-service-name.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/views/examples/pass-data/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/views/examples/pass-data/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/views/examples/start-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/views/examples/start-page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/views/examples/task-list-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/views/examples/task-list-page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/views/examples/template-content-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/views/examples/template-content-page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/views/examples/template-data.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/views/examples/template-data.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/views/examples/template-question-page-blank.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/views/examples/template-question-page-blank.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/views/includes/analytics.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/views/includes/examples_head.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/views/includes/head.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/views/includes/head.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/views/includes/scripts.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/views/includes/scripts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/views/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/views/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/views/install.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/views/install.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/views/install_template.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/views/install_template.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/views/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/views/layout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/views/layout_unbranded.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/views/layout_unbranded.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/views/markdown-docs-layout.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/views/privacy-policy.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/views/tutorials-and-examples.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/views/tutorials-and-examples.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulp/clean.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulp/clean.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulp/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/gulp/config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulp/sass.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulp/sass.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/prototype-admin/clear-data.html" beforeDir="false" afterPath="$PROJECT_DIR$/lib/prototype-admin/clear-data.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/template_unbranded.njk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/usage-data-prompt.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lib/usage-data-prompt.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cookie-signature/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cookie-signature/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cookie/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cookie/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/etag/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/etag/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/govuk-frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/govuk-frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/docs/api.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/docs/building-testing.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/docs/css-classes-reference.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/docs/index.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/docs/language-contribution.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/docs/language-guide.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/docs/language-requests.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/docs/line-numbers.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/docs/reference.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/docs/release-process.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/docs/style-guide.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/highlight.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/1c.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/abnf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/accesslog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/actionscript.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/ada.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/apache.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/applescript.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/arduino.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/armasm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/asciidoc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/aspectj.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/autohotkey.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/autoit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/avrasm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/awk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/axapta.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/bash.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/basic.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/bnf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/brainfuck.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/cal.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/capnproto.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/ceylon.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/clean.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/clojure-repl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/clojure.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/cmake.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/coffeescript.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/coq.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/cos.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/cpp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/crmsh.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/crystal.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/cs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/csp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/css.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/d.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/dart.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/delphi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/diff.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/django.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/dns.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/dockerfile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/dos.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/dsconfig.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/dts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/dust.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/ebnf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/elixir.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/elm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/erb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/erlang-repl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/erlang.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/excel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/fix.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/flix.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/fortran.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/fsharp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/gams.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/gauss.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/gcode.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/gherkin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/glsl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/go.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/golo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/gradle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/groovy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/haml.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/handlebars.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/haskell.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/haxe.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/hsp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/htmlbars.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/http.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/hy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/inform7.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/ini.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/irpf90.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/java.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/javascript.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/jboss-cli.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/json.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/julia-repl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/julia.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/kotlin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/lasso.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/ldif.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/leaf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/less.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/lisp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/livecodeserver.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/livescript.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/llvm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/lsl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/lua.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/makefile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/markdown.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/mathematica.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/matlab.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/maxima.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/mel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/mercury.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/mipsasm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/mizar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/mojolicious.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/monkey.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/moonscript.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/n1ql.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/nginx.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/nimrod.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/nix.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/nsis.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/objectivec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/ocaml.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/openscad.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/oxygene.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/parser3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/perl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/pf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/php.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/pony.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/powershell.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/processing.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/profile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/prolog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/protobuf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/puppet.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/purebasic.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/python.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/q.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/qml.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/r.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/rib.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/roboconf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/routeros.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/rsl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/ruby.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/ruleslanguage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/rust.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/scala.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/scheme.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/scilab.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/scss.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/shell.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/smali.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/smalltalk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/sml.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/sqf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/sql.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/stan.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/stata.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/step21.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/stylus.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/subunit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/swift.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/taggerscript.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/tap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/tcl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/tex.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/thrift.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/tp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/twig.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/typescript.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/vala.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/vbnet.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/vbscript-html.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/vbscript.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/verilog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/vhdl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/vim.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/x86asm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/xl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/xml.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/xquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/yaml.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/lib/languages/zephir.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/styles/agate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/styles/androidstudio.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/styles/arduino-light.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/styles/arta.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/styles/ascetic.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/styles/atelier-cave-dark.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/styles/atelier-cave-light.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/styles/atelier-dune-dark.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/styles/atelier-dune-light.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/styles/atelier-estuary-dark.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/styles/atelier-estuary-light.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/styles/atelier-forest-dark.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/styles/atelier-forest-light.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/styles/atelier-heath-dark.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/styles/atelier-heath-light.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/styles/atelier-lakeside-dark.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/styles/atelier-lakeside-light.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/styles/atelier-plateau-dark.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/styles/atelier-plateau-light.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/styles/atelier-savanna-dark.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/styles/atelier-savanna-light.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/styles/atelier-seaside-dark.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/styles/atelier-seaside-light.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/styles/atelier-sulphurpool-dark.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/styles/atelier-sulphurpool-light.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/styles/atom-one-dark.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/styles/atom-one-light.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/styles/brown-paper.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/styles/brown-papersq.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/styles/codepen-embed.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/styles/color-brewer.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/styles/darcula.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/styles/dark.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/styles/darkula.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/styles/default.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/styles/docco.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/styles/dracula.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/styles/far.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/styles/foundation.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/styles/github-gist.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/styles/github.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/styles/googlecode.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/styles/grayscale.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/styles/gruvbox-dark.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/styles/gruvbox-light.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/styles/hopscotch.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/styles/hybrid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/styles/idea.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/styles/ir-black.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/styles/kimbie.dark.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/styles/kimbie.light.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/styles/magula.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/styles/mono-blue.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/styles/monokai-sublime.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/styles/monokai.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/styles/obsidian.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/styles/ocean.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/styles/paraiso-dark.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/styles/paraiso-light.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/styles/pojoaque.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/styles/pojoaque.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/styles/purebasic.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/styles/qtcreator_dark.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/styles/qtcreator_light.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/styles/railscasts.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/styles/rainbow.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/styles/routeros.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/styles/school-book.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/styles/school-book.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/styles/solarized-dark.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/styles/solarized-light.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/styles/sunburst.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/styles/tomorrow-night-blue.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/styles/tomorrow-night-bright.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/styles/tomorrow-night-eighties.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/styles/tomorrow-night.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/styles/tomorrow.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/styles/vs.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/styles/vs2015.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/styles/xcode.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/styles/xt256.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/highlight.js/styles/zenburn.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nunjucks/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nunjucks/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/parseurl/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/parseurl/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/serve-favicon/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/serve-favicon/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/serve-favicon/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/serve-favicon/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/serve-favicon/node_modules/fresh/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/serve-favicon/node_modules/fresh/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/serve-favicon/node_modules/fresh/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/serve-favicon/node_modules/fresh/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/serve-favicon/node_modules/fresh/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/serve-favicon/node_modules/ms/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/serve-favicon/node_modules/ms/license.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/serve-favicon/node_modules/ms/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/serve-favicon/node_modules/ms/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/serve-favicon/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/javascripts/application.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/javascripts/application.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/javascripts/bind.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/javascripts/cookie-banner.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/javascripts/docs.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/javascripts/docs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/stylesheets/application-ie8.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/application-ie8.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/stylesheets/application.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/application.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/stylesheets/docs-ie8.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/docs-ie8.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/stylesheets/docs.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/docs.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/stylesheets/unbranded.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/unbranded.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/start.js" beforeDir="false" afterPath="$PROJECT_DIR$/start.js" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="Home Office design patterns.htm" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Desktop/Home Office design patterns.htm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-3299">
+              <caret line="26" column="72" lean-forward="true" selection-start-line="26" selection-start-column="72" selection-end-line="26" selection-end-column="72" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.css" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Desktop/Applications home_files/application.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-3499" />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Applications home.htm" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Desktop/Applications home.htm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2376">
+              <caret line="3" column="4" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Book return.htm" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Desktop/Book return.htm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="283">
+              <caret line="92" column="19" lean-forward="true" selection-start-line="85" selection-end-line="92" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/assets/sass/application.scss">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="index log.htm" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Desktop/index log.htm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1734" />
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$USER_HOME$/Desktop/Book return.htm" />
+        <option value="$PROJECT_DIR$/app/views/index.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <gulpfiles>
+      <GulpfileState>
+        <gulpfile-path>$PROJECT_DIR$/gulpfile.js</gulpfile-path>
+      </GulpfileState>
+    </gulpfiles>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="158" />
+    <option name="width" value="1207" />
+    <option name="height" value="829" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ho-asl-prototype" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ho-asl-prototype" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ho-asl-prototype" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ho-asl-prototype" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ho-asl-prototype" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ho-asl-prototype" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ho-asl-prototype" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ho-asl-prototype" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="sass" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ho-asl-prototype" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ho-asl-prototype" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ho-asl-prototype" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ho-asl-prototype" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="includes" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.selected.package.eslint" value="$PROJECT_DIR$/node_modules/eslint" />
+    <property name="node.js.selected.package.standard" value="$PROJECT_DIR$/node_modules/standard" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9bf66283-7ea0-49f8-bc0b-23a03c334d07" name="Default" comment="" />
+      <created>1530302058061</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1530302058061</updated>
+      <workItem from="1530302063421" duration="3450000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="3450000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1306" height="829" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Gulp" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19844358" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info id="npm" side_tool="true" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.068306014" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$USER_HOME$/Desktop/Home Office design patterns.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3299">
+          <caret line="26" column="72" lean-forward="true" selection-start-line="26" selection-start-column="72" selection-end-line="26" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/Applications home_files/application.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3499" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/Applications home.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2376">
+          <caret line="3" column="4" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/Book return.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="92" column="19" lean-forward="true" selection-start-line="85" selection-end-line="92" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/index log_files/tabs.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/index log.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1734" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/sass/application.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+  </component>
+</project>

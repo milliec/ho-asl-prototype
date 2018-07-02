@@ -1,127 +1,15 @@
 // global styles for <a> and <p> tags
 $govuk-global-styles: true;
 
-//Import GOV.UK Frontend
-@import "govuk-frontend/all";
+// Import GOV.UK Frontend
+@import "node_modules/govuk-frontend/all";
 
 // Patterns that aren't in Frontend
-@import 'patterns/check-your-answers';
-@import 'patterns/related-items';
-@import 'patterns/task-list';
-@import 'patterns/_header-internal';
-@import 'patterns/_footer-internal'
+@import "patterns/check-your-answers";
+@import "patterns/task-list";
+@import "patterns/related-items";
 
-//cookie-banner
-@import "../../../docs/assets/sass/cookie-banner";
-
-.code {
-  color: $govuk-text-colour;
-  background-color: govuk-colour("grey-4");
-
-  text-shadow: 0 1px govuk-colour("white");
-  font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
-  font-size: 14px;
-  direction: ltr;
-  text-align: left;
-  white-space: pre;
-  word-spacing: normal;
-  word-break: normal;
-  line-height: 1.5;
-
-  -moz-tab-size: 4;
-  -o-tab-size: 4;
-  tab-size: 4;
-
-  -webkit-hyphens: none;
-  -moz-hyphens: none;
-  -ms-hyphens: none;
-  hyphens: none;
-
-  border: 1px solid $govuk-border-colour;
-  padding: 4px 4px 2px;
-}
-
-
-// Local fixes to GOV.UK frontend
-
-.markdown hr {
-  @include govuk-responsive-margin(6, "top");
-  @include govuk-responsive-margin(6, "bottom");
-}
-
-.govuk-list + .govuk-heading-l,
-.govuk-list + .govuk-heading-m,
-.govuk-list + .govuk-heading-s {
-  @include govuk-responsive-margin(4, "top");
-}
-
-// Take a look at in app/assets/sass/patterns/ to see which files are imported.
-// @import 'patterns/check-your-answers';
-// @import 'patterns/task-list';
+// Components that aren't in Frontend
+@import "components/cookie-banner";
 
 // Add extra styles here, or re-organise the Sass files in whichever way makes most sense to you
-
-// Path to assets for use with the file-url function
-// in the govuk frontend toolkit's url-helpers partial
-$path: "/public/images/";
-
-// Import Inter UI font
-@import url('https://rsms.me/inter/inter-ui.css');
-
-// Import GOV.UK elements from /govuk-modules/, this will import the frontend toolkit and some base styles.
-// Take a look in /govuk-modules/_govuk-elements.scss to see which files are imported.
-@import 'govuk-elements';
-
-// Take a look at in app/assets/sass/unbranded/ to see which files are imported.
-@import 'unbranded';
-
-// HO styles
-@import "patterns/header-internal";
-@import "patterns/footer-internal";
-
-
-// Style overrides
-
-.nta-font {
-  font-family: "nta", Arial, sans-serif!important;
-}
-
-header, footer {
-  background-color: $white;
-}
-
-main, .heading-section, .heading-xlarge, .heading-large, .heading-medium, .heading-small, .lede, .navbar, table td, .navbar .navbar__list-items li a {
-  font-family: 'Inter UI', sans-serif;
-  line-height: 1.45!important;
-}
-
-body {
-  font-family: 'Inter UI', sans-serif;
-  line-height: 1.45!important;
-  background-color: #f3f3f3;
-}
-
-main, table td, .navbar .navbar__list-items li a {
-  font-size: 18px;
-}
-
-.lede {
-  font-size: 22px;
-  margin-bottom: 1.5em;
-}
-
-@media (max-width: 640px) {
-
-  body, main, .heading-section, .heading-xlarge, .heading-large, .heading-medium, .heading-small, .lede, .navbar, table td, .navbar .navbar__list-items li a {
-    line-height: 1.35!important;
-  }
-
-  main, table td, .navbar .navbar__list-items li a {
-    font-size: 15px;
-  }
-
-  .lede {
-    font-size: 17.5px;
-    margin-bottom: 1.5em;
-  }
-}
