@@ -1,0 +1,38 @@
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+Research and testing with animals prototype
+{% endblock %}
+
+{% block content %}
+
+<div class="govuk-!-padding-bottom-5"></div>
+
+<div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds">
+        <h1 class="govuk-heading-xl">
+            Sprint 11
+            <!--<span class="govuk-caption-xl">{{releaseVersion}}</span>-->
+        </h1>{{releaseVersion | log }}
+
+        <p>User testing dd.mm.yyyy (TBC)</p>
+
+        <!--<h4 class="govuk-heading-s">Inspector - receives notification</h4>-->
+        <!--<ul class="govuk-list govuk-list&#45;&#45;number">-->
+            <!--<li><a href="email">Email notification</a></li>-->
+        <!--</ul>-->
+
+        <h4 class="govuk-heading-s">Inspector - recommendation journey</h4>
+        <ul class="govuk-list govuk-list--number">
+            <li><a href="sign-in">Sign in</a></li>
+            <li><a href="homepage">Homepage</a></li>
+            <li><a href="tasks">Task list</a></li>
+            <li><a href="amend">Amend approved area</a></li>
+            <li><a href="amend-check-answers">Preview recommendation</a></li>
+            <li><a href="confirmation-page">Confirmation page</a></li>
+        </ul>
+
+    </div>
+</div>
+
+{% endblock %}

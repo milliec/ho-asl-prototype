@@ -1,0 +1,110 @@
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+Research and testing with animals prototype
+{% endblock %}
+
+{% block content %}
+
+<div class="govuk-width-container">
+    <div class="govuk-breadcrumbs">
+        <ol class="govuk-breadcrumbs__list">
+            <li class="govuk-breadcrumbs__list-item">
+                <a class="govuk-breadcrumbs__link" href="#">Home</a>
+            </li>
+            <li class="govuk-breadcrumbs__list-item" aria-current="page">Outstanding tasks</li>
+        </ol>
+    </div>
+
+    <main class="govuk-main-wrapper">
+
+        <div class="govuk-grid-row">
+            <div class="govuk-grid-column-full">
+                <h2 class="govuk-heading-l">Outstanding tasks</h2>
+            </div>
+
+            <div class="govuk-tabs govuk-!-margin-bottom-6" data-module="tabs">
+
+                <ul class="govuk-tabs__list">
+                    <li class="govuk-tabs__list-item">
+                        <a class="govuk-tabs__tab" href="#all-tasks">
+                            All tasks
+                        </a>
+                    </li>
+                    <li class="govuk-tabs__list-item">
+                        <a class="govuk-tabs__tab" href="#my-tasks">
+                            My tasks
+                        </a>
+                    </li>
+                </ul>
+
+                <section class="govuk-tabs" id="all-tasks">
+                    <div class="govuk-!-padding-bottom-4"></div>
+                    <table class="govuk-table">
+                        <thead class="govuk-table__head">
+                        <tr class="govuk-table__row">
+                            <th class="govuk-table__header" scope="col">Case manager</th>
+                            <th class="govuk-table__header" scope="col">Cases opened</th>
+                            <th class="govuk-table__header" scope="col">Cases closed</th>
+                        </tr>
+                        </thead>
+                        <tbody class="govuk-table__body">
+                        <tr class="govuk-table__row">
+                            <td class="govuk-table__cell">David Francis</td>
+                            <td class="govuk-table__cell ">3</td>
+                            <td class="govuk-table__cell ">0</td>
+                        </tr>
+                        <tr class="govuk-table__row">
+                            <td class="govuk-table__cell">Paul Farmer</td>
+                            <td class="govuk-table__cell ">1</td>
+                            <td class="govuk-table__cell ">0</td>
+                        </tr>
+                        <tr class="govuk-table__row">
+                            <td class="govuk-table__cell">Rita Patel</td>
+                            <td class="govuk-table__cell ">2</td>
+                            <td class="govuk-table__cell ">0</td>
+                        </tr>
+                        </tbody>
+                    </table>
+
+                </section>
+                <section class="govuk-tabs" id="my-tasks">
+                    <h2 class="govuk-heading-l">My tasks</h2>
+                    <table class="govuk-table">
+                        <thead class="govuk-table__head">
+                        <tr class="govuk-table__row">
+                            <th class="govuk-table__header" scope="col">Case manager</th>
+                            <th class="govuk-table__header" scope="col">Cases opened</th>
+                            <th class="govuk-table__header" scope="col">Cases closed</th>
+                        </tr>
+                        </thead>
+                        <tbody class="govuk-table__body">
+                        <tr class="govuk-table__row">
+                            <td class="govuk-table__cell">David Francis</td>
+                            <td class="govuk-table__cell ">24</td>
+                            <td class="govuk-table__cell ">18</td>
+                        </tr>
+                        <tr class="govuk-table__row">
+                            <td class="govuk-table__cell">Paul Farmer</td>
+                            <td class="govuk-table__cell ">16</td>
+                            <td class="govuk-table__cell ">20</td>
+                        </tr>
+                        <tr class="govuk-table__row">
+                            <td class="govuk-table__cell">Rita Patel</td>
+                            <td class="govuk-table__cell ">24</td>
+                            <td class="govuk-table__cell ">27</td>
+                        </tr>
+                        </tbody>
+                    </table>
+
+                </section>
+            </div>
+
+
+        </div>
+
+    </main>
+</div>
+
+
+{% endblock %}

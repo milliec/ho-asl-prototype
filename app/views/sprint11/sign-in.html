@@ -1,0 +1,67 @@
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+Research and testing with animals prototype
+{% endblock %}
+
+{% block content %}
+
+<div class="govuk-width-container">
+    <div class="govuk-phase-banner">
+        <p class="govuk-phase-banner__content"><strong class="govuk-tag govuk-phase-banner__content__tag ">
+            Prototype
+        </strong>
+            <span class="govuk-phase-banner__text">
+This is a new service – your <a class="govuk-link" href="#">feedback</a> will help us to improve it.
+</span>
+        </p>
+    </div>
+
+    <main class="govuk-main-wrapper--l">
+
+        <div class="govuk-grid-row">
+            <div class="govuk-grid-column-two-thirds">
+                <h2 class="govuk-heading-l">
+                    Sign in
+                </h2>
+
+                <div class="govuk-form-group">
+                    <label class="govuk-label govuk-!-font-weight-bold" for="email">
+                        Email address
+                    </label>
+                    <!--<span id="email-hint" class="govuk-hint">-->
+                    <!--We’ll only use this to send you a receipt-->
+                    <!--</span>-->
+                    <input class="govuk-input govuk-input--width-20" id="email" name="email" type="text"
+                           aria-describedby="email-hint">
+                </div>
+
+                <div class="govuk-form-group">
+                    <label class="govuk-label govuk-!-font-weight-bold" for="password">
+                        Password
+                    </label>
+                    <!--<span id="email-hint" class="govuk-hint">-->
+                    <!--We’ll only use this to send you a receipt-->
+                    <!--</span>-->
+                    <input autocomplete="off" class="govuk-input govuk-input--width-20" id="password" name="password"
+                           type="password"
+                           aria-describedby="email-hint">
+                </div>
+
+                <a href="homepage" role="button" class="govuk-button govuk-button">
+                    Sign in
+                </a>
+
+                <div>
+                    <a href="#" class="govuk-link govuk-!-font-size-19">Forgot your password?</a>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <div class="govuk-!-padding-bottom-8"></div>
+
+</div>
+
+{% endblock %}

@@ -11,5 +11,129 @@ $govuk-global-styles: true;
 
 // Components that aren't in Frontend
 @import "components/cookie-banner";
+@import "components/searchbox";
 
 // Add extra styles here, or re-organise the Sass files in whichever way makes most sense to you
+
+.govuk-main-wrapper {
+  padding-top: 0;
+}
+
+/* HOMEPAGE (DASHBOARD) BANNER */
+#global-header {
+  overflow: auto;
+}
+
+#global-header h1 {
+  margin: 0;
+}
+.leftcolumn {
+  color: #FFF;
+  margin-top: 30px;
+  padding-bottom: 30px;
+}
+.rightcolumn {
+  color: #FFF;
+  background-color: #0B0C0C;
+  margin-top: 30px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+.rightcolumn p {
+  margin: 0;
+  padding-bottom:5px;
+}
+.rightcolumn a {
+  color: #fff;
+  font-weight: bold;
+}
+#content {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 10px;
+}
+.search-header {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+.homepage-search .form-label {
+  color: #fff; margin-top:0;
+  margin-bottom: 5px;
+}
+.homepage-search .form-control {
+  border:none; width:65%; height: 37px
+}
+#footer {
+  margin-top:60px;
+}
+
+///* HORIZONTAL TABS */
+//
+//.tabs > ol, .tabs > ul {
+//  @extend %contain-floats;
+//  list-style: none;
+//  margin: 0 -16px;
+//  padding: 0;
+//  border-top: 1px solid #ababab;
+//
+//  @include media(tablet) {
+//    margin: 0;
+//    border-top: 0;
+//    border-bottom: 2px solid #ababab;
+//  }
+//}
+//
+//.tabs > ul li, .tabs > ol li {
+//  margin: 0;
+//
+//  @include media(tablet) {
+//    float: left;
+//    margin: 0 3px 0 0;
+//  }
+//}
+//
+//.tabs > ul li a, .tabs > ol li a {
+//  display: block;
+//  line-height: 3.5em;
+//  padding: 0 16px;
+//  text-align: left;
+//  border-bottom: 1px solid #ababab;
+//  color: $link-colour;
+//
+//  &:hover {
+//    background-color: lighten( $panel-colour, 4% );
+//    color: $link-colour;
+//  }
+//
+//  @include media(tablet) {
+//    // border: solid 2px $white;
+//    border-bottom: none;
+//    float: left;
+//    height: 2.25em;
+//    line-height: 2.25em;
+//    margin-bottom: -2px;
+//    padding: 0 20px;
+//  }
+//}
+//
+//.tabs > ul li.active a, .tabs > ol li.active a {
+//  background-color: #f3f3f3;
+//  border-bottom: 1px solid #ababab;
+//  color: $text-colour;
+//  text-decoration: none;
+//  pointer-events: none;
+//  cursor: default;
+//
+//  &:hover {
+//    color: inherit;
+//  }
+//
+//  @include media(tablet) {
+//    border: solid 2px #ababab;
+//    border-bottom: none;
+//    padding-bottom: 2px;
+//  }
+//}
+//
