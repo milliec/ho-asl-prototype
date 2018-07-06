@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9bf66283-7ea0-49f8-bc0b-23a03c334d07" name="Default" comment="">
+<<<<<<< HEAD
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/sass/application.scss" afterPath="$PROJECT_DIR$/app/assets/sass/application.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/index.html" afterPath="$PROJECT_DIR$/app/views/index.html" />
@@ -9,6 +10,9 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/sprint11/tasks.html" afterPath="$PROJECT_DIR$/app/views/sprint11/tasks.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/application-ie8.css" afterPath="$PROJECT_DIR$/public/stylesheets/application-ie8.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/application.css" afterPath="$PROJECT_DIR$/public/stylesheets/application.css" />
+=======
+      <change beforePath="$PROJECT_DIR$/app/views/includes/breadcrumb_examples.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/includes/breadcrumb_examples.html" afterDir="false" />
+>>>>>>> 8c25d669a32cdccbd454693c9f98d559851fbdf7
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -32,6 +36,7 @@
       <file leaf-file-name="tasks.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/sprint11/tasks.html">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="930">
               <caret line="63" column="52" lean-forward="false" selection-start-line="63" selection-start-column="52" selection-end-line="63" selection-end-column="52" />
               <folding>
@@ -43,17 +48,49 @@
                 <element signature="e#2485#2491#0" expanded="true" />
                 <element signature="e#2626#2632#0" expanded="true" />
                 <element signature="e#2633#2639#0" expanded="true" />
+=======
+            <state relative-caret-position="570">
+              <caret line="38" column="21" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sign-in.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/sprint11/sign-in.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="10" selection-start-line="8" selection-end-line="17" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="homepage.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/sprint11/homepage.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="109">
+              <caret line="58" column="14" lean-forward="true" selection-start-line="58" selection-start-column="14" selection-end-line="58" selection-end-column="14" />
+              <folding>
+                <element signature="n#style#0;n#p#0;n#div#0;n#div#3;n#div#0;n#!!top" expanded="true" />
+>>>>>>> 8c25d669a32cdccbd454693c9f98d559851fbdf7
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/sprint11/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="570">
               <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
               <folding />
+=======
+      <file leaf-file-name="confirmation-page.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/sprint11/confirmation-page.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="32" selection-start-line="32" selection-end-line="32" />
+>>>>>>> 8c25d669a32cdccbd454693c9f98d559851fbdf7
             </state>
           </provider>
         </entry>
@@ -90,6 +127,7 @@
         <option value="$PROJECT_DIR$/app/assets/sass/application.scss" />
         <option value="$PROJECT_DIR$/app/views/sprint11/tasks.html" />
         <option value="$PROJECT_DIR$/app/views/sprint11/index.html" />
+        <option value="$PROJECT_DIR$/app/views/includes/breadcrumb_examples.html" />
       </list>
     </option>
   </component>
@@ -115,10 +153,17 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
+<<<<<<< HEAD
     <option name="x" value="92" />
     <option name="y" value="89" />
     <option name="width" value="1227" />
     <option name="height" value="1069" />
+=======
+    <option name="x" value="214" />
+    <option name="y" value="23" />
+    <option name="width" value="1198" />
+    <option name="height" value="765" />
+>>>>>>> 8c25d669a32cdccbd454693c9f98d559851fbdf7
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -138,6 +183,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -326,8 +372,11 @@
           </PATH>
         </subPane>
       </pane>
+<<<<<<< HEAD
       <pane id="Scope" />
       <pane id="Scratches" />
+=======
+>>>>>>> 8c25d669a32cdccbd454693c9f98d559851fbdf7
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -439,13 +488,18 @@
       <updated>1530302058061</updated>
       <workItem from="1530302063421" duration="21232000" />
       <workItem from="1530783410817" duration="5775000" />
+<<<<<<< HEAD
       <workItem from="1530825950589" duration="36000" />
       <workItem from="1530825999516" duration="5266000" />
       <workItem from="1530866667514" duration="1760000" />
+=======
+      <workItem from="1530882947612" duration="484000" />
+>>>>>>> 8c25d669a32cdccbd454693c9f98d559851fbdf7
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="34069000" />
   </component>
   <component name="ToolWindowManager">
@@ -470,6 +524,33 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+=======
+    <option name="totallyTimeSpent" value="27491000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="214" y="23" width="1198" height="765" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Gulp" order="2" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26168224" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.07335329" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+>>>>>>> 8c25d669a32cdccbd454693c9f98d559851fbdf7
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -483,6 +564,26 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/views/sprint11/homepage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="885">
+          <caret line="59" column="10" lean-forward="true" selection-start-line="59" selection-start-column="10" selection-end-line="59" selection-end-column="10" />
+          <folding>
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#3;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/sprint11/amend/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/sprint11/confirmation-page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/sprint11/tasks.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
@@ -497,7 +598,15 @@
     <entry file="file://$USER_HOME$/Desktop/Applications home.htm" />
     <entry file="file://$USER_HOME$/Desktop/Applications home_files/application.css" />
     <entry file="file://$USER_HOME$/Desktop/Home Office design patterns.htm" />
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/app/views/sprint11/success.html" />
+=======
+    <entry file="file://$PROJECT_DIR$/app/views/sprint11/confirmation.html" />
+    <entry file="file://$PROJECT_DIR$/app/views/sprint11/success.html" />
+    <entry file="file://$PROJECT_DIR$/app/views/includes/cookie-banner.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+>>>>>>> 8c25d669a32cdccbd454693c9f98d559851fbdf7
     <entry file="file://$PROJECT_DIR$/app/views/includes/homepage_header_template_black_bar.html" />
     <entry file="file://$PROJECT_DIR$/app/views/layout-dashboard.html" />
     <entry file="file://$PROJECT_DIR$/app/views/includes/homepage_header_template_2.html" />
@@ -560,8 +669,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/docs/views/examples/branching.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="-202">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
+        <state relative-caret-position="570">
+          <caret line="38" column="21" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
+>>>>>>> 8c25d669a32cdccbd454693c9f98d559851fbdf7
         </state>
       </provider>
     </entry>
@@ -586,6 +700,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/app/views/sprint11/confirmation-page.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
@@ -601,6 +716,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/docs/views/examples/task-list-page.html">
+=======
+    <entry file="file://$USER_HOME$/Desktop/Welcome to GOV.UK.html" />
+    <entry file="file://$USER_HOME$/Desktop/Welcome to GOV.UK_files/application-fe4c305fb4c19046483fccd3b26e981a4fcf01571a0eebef555e7193d2b21de9.css" />
+    <entry file="file://$PROJECT_DIR$/app/assets/sass/application.scss">
+>>>>>>> 8c25d669a32cdccbd454693c9f98d559851fbdf7
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -621,6 +741,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$USER_HOME$/Desktop/Book your driving test - GOV.UK_files/application-fe4c305fb4c19046483fccd3b26e981a4fcf01571a0eebef555e7193d2b21de9.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17655">
@@ -629,13 +750,30 @@
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Desktop/Book your driving test - GOV.UK_files/frontend-0bbe8e8bde237e83baf8be9ee5ba50bdd5d3c0e088e95013c6b4c73ddd7cb49a.js">
+=======
+    <entry file="file://$PROJECT_DIR$/docs/views/examples/branching.html">
+>>>>>>> 8c25d669a32cdccbd454693c9f98d559851fbdf7
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-12625">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$USER_HOME$/Desktop/Book your driving test - GOV.UK_files/govuk-template-c0b8ba8b1652aacad298d74f24752260187f538b50c40c2484f7f333cbc3cf2b.css">
+=======
+    <entry file="file://$PROJECT_DIR$/docs/views/examples/template-data.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/views/examples/template-question-page-blank.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/sprint11/amend/amend-check-answers.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/sprint11/amend-approved-area.html" />
+    <entry file="file://$PROJECT_DIR$/app/views/sprint11/amend/vehicle-type.html">
+>>>>>>> 8c25d669a32cdccbd454693c9f98d559851fbdf7
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-8780">
           <caret line="151" column="28" lean-forward="true" selection-start-line="138" selection-start-column="0" selection-end-line="151" selection-end-column="28" />
@@ -682,9 +820,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/sprint11/index.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="570">
           <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
           <folding />
+=======
+        <state relative-caret-position="480">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/includes/breadcrumb_examples.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="54" selection-start-line="3" selection-start-column="54" selection-end-line="3" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/sprint11/amend/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/sprint11/homepage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="58" column="14" lean-forward="true" selection-start-line="58" selection-start-column="14" selection-end-line="58" selection-end-column="14" />
+          <folding>
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#3;n#div#0;n#!!top" expanded="true" />
+          </folding>
+>>>>>>> 8c25d669a32cdccbd454693c9f98d559851fbdf7
         </state>
       </provider>
     </entry>
