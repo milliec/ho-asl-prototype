@@ -10,97 +10,136 @@ Research and testing with animals prototype
     <div class="govuk-breadcrumbs">
         <ol class="govuk-breadcrumbs__list">
             <li class="govuk-breadcrumbs__list-item">
-                <a class="govuk-breadcrumbs__link" href="#">Home</a>
+                <a class="govuk-breadcrumbs__link" href="homepage">Home</a>
             </li>
             <li class="govuk-breadcrumbs__list-item" aria-current="page">Outstanding tasks</li>
         </ol>
     </div>
+
+    <div class="govuk-!-padding-bottom-4"></div>
 
     <main class="govuk-main-wrapper">
 
         <div class="govuk-grid-row">
             <div class="govuk-grid-column-full">
                 <h2 class="govuk-heading-l">Outstanding tasks</h2>
+
+                <div class="govuk-!-padding-bottom-4"></div>
+
+                <header role="banner" id="global-header" class="">
+                    <div class="header-wrapper">
+                        <div class="header-global">
+
+                            <!--<h3 class="govuk-heading-m">-->
+                            <!--Search by establishment name-->
+                            <!--</h3>-->
+
+                            <p class="govuk-body govuk-!-font-size-19 govuk-!-font-weight-bold">Search by establishment
+                                name</p>
+
+                            <a href="#" class="search-toggle js-header-toggle"></a>
+
+                            <form id="search" class="site-search" action="#" method="get" role="search">
+                                <div class="content">
+                                    <label for="site-search-text"></label>
+                                    <input type="search" name="q" id="site-search-text" title="Search"
+                                           class="js-search-focus">
+                                    <input class="submit" type="submit" value="Search">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </header>
+
+                <div class="govuk-!-padding-bottom-6"></div>
+
+                <div class="wrapper">
+                    <span class="govuk-caption-m breakable-text">Filter by:</span>&nbsp; &nbsp;
+                    <h3 class="govuk-heading-s breakable-text">All</h3>&nbsp; &nbsp;
+                    <a href="#" class="govuk-body govuk-!-font-size-19 breakable-text govuk-link govuk-link--no-visited-state">PEL</a>&nbsp; &nbsp;
+                    <a href="#" class="govuk-body govuk-!-font-size-19 breakable-text govuk-link govuk-link--no-visited-state">PIL</a>&nbsp; &nbsp;
+                    <a href="#" class="govuk-body govuk-!-font-size-19 breakable-text govuk-link govuk-link--no-visited-state">PPL</a>
+                </div>
+
+                <div class="govuk-!-padding-bottom-7"></div>
+
+                <div class="govuk-tabs govuk-!-margin-bottom-6" data-module="tabs">
+
+                    <ul class="govuk-tabs__list">
+                        <li class="govuk-tabs__list-item">
+                            <a class="govuk-tabs__tab" href="#my-tasks">
+                                My tasks (8)
+                            </a>
+                        </li>
+                        <li class="govuk-tabs__list-item">
+                            <a class="govuk-tabs__tab" href="#all-tasks">
+                                All tasks (12)
+                            </a>
+                        </li>
+                    </ul>
+
+                    <section class="govuk-tabs" id="all-tasks">
+                        <div class="govuk-!-padding-bottom-4"></div>
+                        <table class="govuk-table">
+                            <thead class="govuk-table__head">
+                            <tr class="govuk-table__row">
+                                <th class="govuk-table__header" scope="col">Case manager</th>
+                                <th class="govuk-table__header" scope="col">Cases opened</th>
+                                <th class="govuk-table__header" scope="col">Cases closed</th>
+                            </tr>
+                            </thead>
+                            <tbody class="govuk-table__body">
+                            <tr class="govuk-table__row">
+                                <td class="govuk-table__cell">David Francis</td>
+                                <td class="govuk-table__cell ">3</td>
+                                <td class="govuk-table__cell ">0</td>
+                            </tr>
+                            <tr class="govuk-table__row">
+                                <td class="govuk-table__cell">Paul Farmer</td>
+                                <td class="govuk-table__cell ">1</td>
+                                <td class="govuk-table__cell ">0</td>
+                            </tr>
+                            <tr class="govuk-table__row">
+                                <td class="govuk-table__cell">Rita Patel</td>
+                                <td class="govuk-table__cell ">2</td>
+                                <td class="govuk-table__cell ">0</td>
+                            </tr>
+                            </tbody>
+                        </table>
+
+                    </section>
+                    <section class="govuk-tabs" id="my-tasks">
+                        <div class="govuk-!-padding-bottom-4"></div>
+                        <table class="govuk-table">
+                            <thead class="govuk-table__head">
+                            <tr class="govuk-table__row">
+                                <th class="govuk-table__header" scope="col">Case manager</th>
+                                <th class="govuk-table__header" scope="col">Cases opened</th>
+                                <th class="govuk-table__header" scope="col">Cases closed</th>
+                            </tr>
+                            </thead>
+                            <tbody class="govuk-table__body">
+                            <tr class="govuk-table__row">
+                                <td class="govuk-table__cell">David Francis</td>
+                                <td class="govuk-table__cell ">24</td>
+                                <td class="govuk-table__cell ">18</td>
+                            </tr>
+                            <tr class="govuk-table__row">
+                                <td class="govuk-table__cell">Paul Farmer</td>
+                                <td class="govuk-table__cell ">16</td>
+                                <td class="govuk-table__cell ">20</td>
+                            </tr>
+                            <tr class="govuk-table__row">
+                                <td class="govuk-table__cell">Rita Patel</td>
+                                <td class="govuk-table__cell ">24</td>
+                                <td class="govuk-table__cell ">27</td>
+                            </tr>
+                            </tbody>
+                        </table>
+
+                    </section>
+                </div>
             </div>
-
-            <div class="govuk-tabs govuk-!-margin-bottom-6" data-module="tabs">
-
-                <ul class="govuk-tabs__list">
-                    <li class="govuk-tabs__list-item">
-                        <a class="govuk-tabs__tab" href="#all-tasks">
-                            All tasks
-                        </a>
-                    </li>
-                    <li class="govuk-tabs__list-item">
-                        <a class="govuk-tabs__tab" href="#my-tasks">
-                            My tasks
-                        </a>
-                    </li>
-                </ul>
-
-                <section class="govuk-tabs" id="all-tasks">
-                    <div class="govuk-!-padding-bottom-4"></div>
-                    <table class="govuk-table">
-                        <thead class="govuk-table__head">
-                        <tr class="govuk-table__row">
-                            <th class="govuk-table__header" scope="col">Case manager</th>
-                            <th class="govuk-table__header" scope="col">Cases opened</th>
-                            <th class="govuk-table__header" scope="col">Cases closed</th>
-                        </tr>
-                        </thead>
-                        <tbody class="govuk-table__body">
-                        <tr class="govuk-table__row">
-                            <td class="govuk-table__cell">David Francis</td>
-                            <td class="govuk-table__cell ">3</td>
-                            <td class="govuk-table__cell ">0</td>
-                        </tr>
-                        <tr class="govuk-table__row">
-                            <td class="govuk-table__cell">Paul Farmer</td>
-                            <td class="govuk-table__cell ">1</td>
-                            <td class="govuk-table__cell ">0</td>
-                        </tr>
-                        <tr class="govuk-table__row">
-                            <td class="govuk-table__cell">Rita Patel</td>
-                            <td class="govuk-table__cell ">2</td>
-                            <td class="govuk-table__cell ">0</td>
-                        </tr>
-                        </tbody>
-                    </table>
-
-                </section>
-                <section class="govuk-tabs" id="my-tasks">
-                    <h2 class="govuk-heading-l">My tasks</h2>
-                    <table class="govuk-table">
-                        <thead class="govuk-table__head">
-                        <tr class="govuk-table__row">
-                            <th class="govuk-table__header" scope="col">Case manager</th>
-                            <th class="govuk-table__header" scope="col">Cases opened</th>
-                            <th class="govuk-table__header" scope="col">Cases closed</th>
-                        </tr>
-                        </thead>
-                        <tbody class="govuk-table__body">
-                        <tr class="govuk-table__row">
-                            <td class="govuk-table__cell">David Francis</td>
-                            <td class="govuk-table__cell ">24</td>
-                            <td class="govuk-table__cell ">18</td>
-                        </tr>
-                        <tr class="govuk-table__row">
-                            <td class="govuk-table__cell">Paul Farmer</td>
-                            <td class="govuk-table__cell ">16</td>
-                            <td class="govuk-table__cell ">20</td>
-                        </tr>
-                        <tr class="govuk-table__row">
-                            <td class="govuk-table__cell">Rita Patel</td>
-                            <td class="govuk-table__cell ">24</td>
-                            <td class="govuk-table__cell ">27</td>
-                        </tr>
-                        </tbody>
-                    </table>
-
-                </section>
-            </div>
-
-
         </div>
 
     </main>
