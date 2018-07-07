@@ -1,32 +1,99 @@
 {% extends "layout.html" %}
 
 {% block pageTitle %}
-  Confirmation page example
+Confirmation page example
 {% endblock %}
 
 {% block content %}
 
-  <div class="govuk-grid-row">
-    <div class="govuk-grid-column-two-thirds">
-
-      <div class="govuk-panel govuk-panel--confirmation">
-        <h2 class="govuk-panel__title">Application complete</h2>
-        <div class="govuk-panel__body">
-          Your reference number<br><strong>HDJ2123F</strong>
-        </div>
-      </div>
-
-      <p>
-        We have sent you a confirmation email.
-      </p>
-
-      <h2 class="govuk-heading-m">What happens next</h2>
-      <p>We've sent your application to Hackney Electoral Register Office.</p>
-      <p>They will contact you either to confirm your registration, or to ask for more information.</p>
-      <p><a href="https://www.gov.uk/service-manual/user-centred-design/resources/patterns/feedback-pages.html">What did you think of this service?</a> (takes 30 seconds)</p>
-
-
+<div class="govuk-width-container">
+    <div class="govuk-phase-banner">
+        <p class="govuk-phase-banner__content"><strong class="govuk-tag govuk-phase-banner__content__tag ">
+            Prototype
+        </strong>
+            <span class="govuk-phase-banner__text">
+This is a new service – your <a class="govuk-link" href="#">feedback</a> will help us to improve it.
+</span>
+        </p>
     </div>
-  </div>
+
+    <main class="govuk-main-wrapper--l">
+
+        <div class="govuk-grid-row">
+            <div class="govuk-grid-column-two-thirds">
+
+                <div class="govuk-panel govuk-panel--confirmation">
+                    <h2 class=" govuk-panel__title">Your changes have been submitted</h2>
+                    <!--<div class="govuk-panel__body">-->
+                    <!--Your reference number<br><strong>HDJ2123F</strong>-->
+                    <!--</div>-->
+
+                    <!--<div class="govuk-box-highlight confirm-page">-->
+                    <!--<span class="hod-checkmark"></span>-->
+                    <!--<h2 class="heading-large">-->
+                    <!--You have [completed your task].-->
+                    <!--</h2>-->
+                    <!--<p>We have sent you a confirmation email.</p>-->
+                    <!--</div>-->
+                </div>
+
+                <table class="govuk-table">
+                    <!--<caption class="govuk-table__caption">Caption</caption>-->
+                    <!--<thead class="govuk-table__head">-->
+                    <!--<tr class="govuk-table__row">-->
+                    <!--<th class="govuk-table__header" scope="col">Date</th>-->
+                    <!--<th class="govuk-table__header" scope="col">Amount</th>-->
+                    <!--</tr>-->
+                    <!--</thead>-->
+                    <tbody class="govuk-table__body">
+                    <tr class="govuk-table__row noBorder">
+                        <th class="govuk-table__header" scope="row">Date:</th>
+                        <td class="govuk-table__cell ">5 June 2018 18:00</td>
+                    </tr>
+                    <tr class="govuk-table__row noBorder">
+                        <th class="govuk-table__header" scope="row">Submitted by:</th>
+                        <td class="govuk-table__cell ">Irene Atkinson</td>
+                    </tr>
+                    <tr class="govuk-table__row noBorder">
+                        <th class="govuk-table__header" scope="row">Type:</th>
+                        <td class="govuk-table__cell ">Area amendment</td>
+                    </tr>
+                    </tbody>
+                </table>
+
+                <!--<div class="govuk-!-padding-bottom-4"></div>-->
+                <hr class="govuk-section-break govuk-section-break--l govuk-section-break--visible">
+
+                <h2 class="govuk-heading-m">What happens next</h2>
+                <p>A member of the Licensing team will review your recommendation and will be in touch if they need any
+                    more
+                    information.</p>
+
+                <div class="govuk-!-padding-bottom-2"></div>
+
+                <div class="govuk-form-group">
+                    <div class="govuk-checkboxes">
+                        <div class="govuk-checkboxes__item">
+                            <input class="govuk-checkboxes__input" id="notification" name="notification"
+                                   type="checkbox" value="notification-yes">
+                            <label class="govuk-label govuk-checkboxes__label" for="notification">
+                                Send me notifications about this amendment
+                            </label>
+                        </div>
+                    </div>
+                    </fieldset>
+                </div>
+
+                <div class="govuk-!-padding-bottom-2"></div>
+
+                <a href="tasks" role="button" class="govuk-button govuk-button">
+                    Back to tasks
+                </a>
+
+                <p><a href="homepage">Go to homepage</a></p>
+
+            </div>
+    </main>
+</div>
 
 {% endblock %}

@@ -56,9 +56,14 @@ Research and testing with animals prototype
                 <div class="wrapper">
                     <span class="govuk-caption-m breakable-text">Filter by:</span>&nbsp; &nbsp;
                     <h3 class="govuk-heading-s breakable-text">All</h3>&nbsp; &nbsp;
-                    <a href="#" class="govuk-body govuk-!-font-size-19 breakable-text govuk-link govuk-link--no-visited-state">PEL</a>&nbsp; &nbsp;
-                    <a href="#" class="govuk-body govuk-!-font-size-19 breakable-text govuk-link govuk-link--no-visited-state">PIL</a>&nbsp; &nbsp;
-                    <a href="#" class="govuk-body govuk-!-font-size-19 breakable-text govuk-link govuk-link--no-visited-state">PPL</a>
+                    <a href="#"
+                       class="govuk-body govuk-!-font-size-19 breakable-text govuk-link govuk-link--no-visited-state">PEL</a>&nbsp;
+                    &nbsp;
+                    <a href="#"
+                       class="govuk-body govuk-!-font-size-19 breakable-text govuk-link govuk-link--no-visited-state">PIL</a>&nbsp;
+                    &nbsp;
+                    <a href="#"
+                       class="govuk-body govuk-!-font-size-19 breakable-text govuk-link govuk-link--no-visited-state">PPL</a>
                 </div>
 
                 <div class="govuk-!-padding-bottom-7"></div>
@@ -73,69 +78,177 @@ Research and testing with animals prototype
                         </li>
                         <li class="govuk-tabs__list-item">
                             <a class="govuk-tabs__tab" href="#all-tasks">
-                                All tasks (12)
+                                Team tasks (12)
                             </a>
                         </li>
                     </ul>
 
-                    <section class="govuk-tabs" id="all-tasks">
-                        <div class="govuk-!-padding-bottom-4"></div>
-                        <table class="govuk-table">
-                            <thead class="govuk-table__head">
-                            <tr class="govuk-table__row">
-                                <th class="govuk-table__header" scope="col">Case manager</th>
-                                <th class="govuk-table__header" scope="col">Cases opened</th>
-                                <th class="govuk-table__header" scope="col">Cases closed</th>
+                    <section class="govuk-tabs" id="my-tasks">
+                        <div class="govuk-!-padding-bottom-6"></div>
+                        <!--START tab 1 div -->
+                        <!--<p>You've got 7 outstanding tasks</p>-->
+                        <table>
+                            <thead>
+                            <tr>
+                                <td class="row"><a href="#"
+                                                   style="color:#005EA5; font-weight:bold; text-decoration:none;">Received</a><span
+                                        style="color:#005EA5;">▼</span>
+                                </td>
+                                <td class="row"><a href="#"
+                                                   style="color:#005EA5; font-weight:bold; text-decoration:none;">Establishment</a>
+                                </td>
+                                <td class="row"><a href="#"
+                                                   style="color:#005EA5; font-weight:bold; text-decoration:none;">Licence</a>
+                                </td>
+                                <td class="row"><a href="#"
+                                                   style="color:#005EA5; font-weight:bold; text-decoration:none;">Type</a>
+                                </td>
                             </tr>
                             </thead>
-                            <tbody class="govuk-table__body">
-                            <tr class="govuk-table__row">
-                                <td class="govuk-table__cell">David Francis</td>
-                                <td class="govuk-table__cell ">3</td>
-                                <td class="govuk-table__cell ">0</td>
+                            <tbody>
+                            <!--<tr>-->
+                                <!--<td class="row">7 Jun 2018<br>12:58</td>-->
+                                <!--<td class="row">University of Birmingham</td>-->
+                                <!--<td class="row">PEL</td>-->
+                                <!--<td class="row"><a href="amend">Area amendment</a>-->
+                                <!--</td>-->
+                            <!--</tr>-->
+                            <tr>
+                                <td class="row">5 Jun 2018<br>14:00</td>
+                                <td class="row">University of Birmingham</td>
+                                <td class="row">PEL</td>
+                                <td class="row"><a href="#">New area</a>
+                                </td>
                             </tr>
-                            <tr class="govuk-table__row">
-                                <td class="govuk-table__cell">Paul Farmer</td>
-                                <td class="govuk-table__cell ">1</td>
-                                <td class="govuk-table__cell ">0</td>
+                            <tr>
+                                <td class="row">5 Jul 2018<br>10:24</td>
+                                <td class="row">Churchill Applied Biotechnology Limited</td>
+                                <td class="row">PEL</td>
+                                <td class="row"><a href="#">Area amendment</a></td>
                             </tr>
-                            <tr class="govuk-table__row">
-                                <td class="govuk-table__cell">Rita Patel</td>
-                                <td class="govuk-table__cell ">2</td>
-                                <td class="govuk-table__cell ">0</td>
+                            <tr>
+                                <td class="row">4 Jul 2018<br> 10:48</td>
+                                <td class="row">Agrochemex Environmental Ltd</td>
+                                <td class="row">PEL</td>
+                                <td class="row"><a href="#">New area</a></td>
+                            </tr>
+                            <tr>
+                                <td class="row">3 Jun 2018<br>13:50</td>
+                                <td class="row">University of Birmingham</td>
+                                <td class="row">PEL</td>
+                                <td class="row"><a href="#">New named person</a></td>
+                            </tr>
+                            <tr>
+                                <td class="row">2 Jun 2018<br>15:30</td>
+                                <td class="row">Imperial College London</td>
+                                <td class="row">PPL</td>
+                                <td class="row"><a href="#">Project continuation</a><br><span class="govuk-body-s govuk-!-font-weight-bold" style="color: #b10e1e">expires on 20 Jul 2018</span></td>
+                            </tr>
+                            <tr>
+                                <td class="row">2 Jun 2018<br>13:50</td>
+                                <td class="row">University of Birmingham</td>
+                                <td class="row">PEL</td>
+                                <td class="row"><a href="amend">Area amendment</a></td>
+                            </tr>
+                            <tr>
+                                <td class="row">1 Jun 2018<br>15:30</td>
+                                <td class="row">University of Birmingham</td>
+                                <td class="row">PPL</td>
+                                <td class="row"><a href="#">Project continuation</a><br><span class="govuk-body-s govuk-!-font-weight-bold" style="color: #b10e1e">expires on 1 Sep 2018</span></td>
                             </tr>
                             </tbody>
                         </table>
+                        <!--end tab 1 div  -->
 
                     </section>
-                    <section class="govuk-tabs" id="my-tasks">
-                        <div class="govuk-!-padding-bottom-4"></div>
-                        <table class="govuk-table">
-                            <thead class="govuk-table__head">
-                            <tr class="govuk-table__row">
-                                <th class="govuk-table__header" scope="col">Case manager</th>
-                                <th class="govuk-table__header" scope="col">Cases opened</th>
-                                <th class="govuk-table__header" scope="col">Cases closed</th>
+                    <section class="govuk-tabs" id="all-tasks">
+                        <div class="govuk-!-padding-bottom-6"></div>
+                        <!--START tab 2 div -->
+                        <!--<p>Showing 12 tasks</p>-->
+                        <table>
+                            <thead>
+                            <tr>
+                                <td class="row"><a href="#"
+                                                   style="color:#005EA5; font-weight:bold; text-decoration:none;">Received</a><span
+                                        style="color:#005EA5;">▼</span>
+                                </td>
+                                <td class="row"><a href="#"
+                                                   style="color:#005EA5; font-weight:bold; text-decoration:none;">Establishment</a>
+                                </td>
+                                <td class="row"><a href="#"
+                                                   style="color:#005EA5; font-weight:bold; text-decoration:none;">Licence</a>
+                                </td>
+                                <td class="row"><a href="#"
+                                                   style="color:#005EA5; font-weight:bold; text-decoration:none;">Type</a>
+                                </td>
                             </tr>
                             </thead>
-                            <tbody class="govuk-table__body">
-                            <tr class="govuk-table__row">
-                                <td class="govuk-table__cell">David Francis</td>
-                                <td class="govuk-table__cell ">24</td>
-                                <td class="govuk-table__cell ">18</td>
+                            <tbody>
+                            <tr>
+                                <td class="row">7 Jun 2018<br>12:58</td>
+                                <td class="row">University of Birmingham</td>
+                                <td class="row">PEL</td>
+                                <td class="row"><a href="#">Area amendment</a>
+                                </td>
                             </tr>
-                            <tr class="govuk-table__row">
-                                <td class="govuk-table__cell">Paul Farmer</td>
-                                <td class="govuk-table__cell ">16</td>
-                                <td class="govuk-table__cell ">20</td>
+                            <tr>
+                                <td class="row">5 Jun 2018<br>15:30</td>
+                                <td class="row">University of Birmingham</td>
+                                <td class="row">PEL</td>
+                                <td class="row"><a href="#">New area</a>
+                                </td>
                             </tr>
-                            <tr class="govuk-table__row">
-                                <td class="govuk-table__cell">Rita Patel</td>
-                                <td class="govuk-table__cell ">24</td>
-                                <td class="govuk-table__cell ">27</td>
+                            <tr>
+                                <td class="row">5 Jul 2018<br>10:24</td>
+                                <td class="row">Churchill Applied Biotechnology Limited</td>
+                                <td class="row">PEL</td>
+                                <td class="row"><a href="#">Area amendment</a></td>
+                            </tr>
+                            <tr>
+                                <td class="row">4 Jul 2018<br> 10:48</td>
+                                <td class="row">Agrochemex Environmental Ltd</td>
+                                <td class="row">PEL</td>
+                                <td class="row"><a href="#">New area</a></td>
+                            </tr>
+                            <tr>
+                                <td class="row">3 Jun 2018<br>13:50</td>
+                                <td class="row">University of Birmingham</td>
+                                <td class="row">PEL</td>
+                                <td class="row"><a href="#">New named person</a></td>
+                            </tr>
+                            <tr>
+                                <td class="row">2 Jun 2018<br>15:30</td>
+                                <td class="row">Imperial College London</td>
+                                <td class="row">PPL</td>
+                                <td class="row"><a href="#">Project continuation</a><br><span class="govuk-body-s govuk-!-font-weight-bold" style="color: #b10e1e">expires on 20 Jul 2018</span></td>
+                            </tr>
+                            <tr>
+                                <td class="row">2 Jun 2018<br>13:50</td>
+                                <td class="row">University of Birmingham</td>
+                                <td class="row">PEL</td>
+                                <td class="row"><a href="#">New amendment</a></td>
+                            </tr>
+                            <tr>
+                                <td class="row">1 Jun 2018<br>15:30</td>
+                                <td class="row">University of Birmingham</td>
+                                <td class="row">PPL</td>
+                                <td class="row"><a href="#">Project continuation</a><br><span class="govuk-body-s govuk-!-font-weight-bold" style="color: #b10e1e">expires on 1 Sep 2018</span></td>
+                            </tr>
+                            <tr>
+                                <td class="row">30 May 2018<br>13:50</td>
+                                <td class="row">University of Birmingham</td>
+                                <td class="row">PIL</td>
+                                <td class="row"><a href="#">Revocation</a></td>
+                            </tr>
+                            <tr>
+                                <td class="row">28 May 2018<br>13:50</td>
+                                <td class="row">University of Birmingham</td>
+                                <td class="row">PIL</td>
+                                <td class="row"><a href="#">Revocation</a></td>
                             </tr>
                             </tbody>
                         </table>
+                        <!--end tab 2 div  -->
 
                     </section>
                 </div>
