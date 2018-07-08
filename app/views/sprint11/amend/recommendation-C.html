@@ -17,7 +17,7 @@ This is a new service – your <a class="govuk-link" href="#">feedback</a> will 
 </div>
 
 <div class="govuk-width-container">
-    <a href="tasks" class="govuk-back-link">Back</a>
+    <a href="../tasks" class="govuk-back-link">Back</a>
 
     <div class="govuk-!-padding-bottom-4"></div>
 
@@ -26,7 +26,7 @@ This is a new service – your <a class="govuk-link" href="#">feedback</a> will 
         <div class="govuk-grid-column-two-thirds">
             <h2 class="govuk-heading-l">Amend approved area</h2>
             <div class="govuk-inset-text">
-                Submitted by Angela Smith on behalf of William Blanc on 2 June 2018 13:50
+                Submitted by Angela Smith on behalf of William Blanc on 7 June 2018 12:58
             </div>
 
             <!--<hr class="govuk-section-break govuk-section-break&#45;&#45;m govuk-section-break&#45;&#45;visible">-->
@@ -120,7 +120,7 @@ This is a new service – your <a class="govuk-link" href="#">feedback</a> will 
 
             <hr class="govuk-section-break govuk-section-break--xl govuk-section-break--visible">
 
-            <h2 class="govuk-heading-l">What is your recommendation?</h2>
+            <h2 class="govuk-heading-l">Your recommendation</h2>
 
             <details class="govuk-details">
                 <summary class="govuk-details__summary">
@@ -137,18 +137,18 @@ This is a new service – your <a class="govuk-link" href="#">feedback</a> will 
                 </div>
             </details>
 
-
             <form name="aspnetForm" method="post"
-                  onsubmit="multiNavigation('recommendation', ['approve', 'reject', 'return'], ['/amend/check-answers-approve', '/amend/check-answers-reject', '/amend/check-answers-return']);return false;"
+                  onsubmit="multiNavigation('recommendation', ['approve', 'reject', ''], ['/amend/check-answers-approve', '/amend/check-answers-reject', '']);return false;"
                   id="aspnetForm" autocomplete="off">
 
                 <div class="govuk-form-group">
                     <fieldset class="govuk-fieldset">
-                        <!--<legend class="govuk-fieldset__legend govuk-fieldset__legend&#45;&#45;m">-->
-                        <!--<h1 class="govuk-fieldset__heading">-->
-                        <!--Text goes here-->
-                        <!--</h1>-->
-                        <!--</legend>-->
+                        <legend class="govuk-fieldset__legend govuk-fieldset__legend--m">
+                            <h1 class="govuk-fieldset__heading">
+                                Do you approve all proposed changes?
+                            </h1>
+                        </legend>
+
                         <div class="govuk-radios" data-module="radios">
                             <div class="govuk-radios__item">
                                 <input class="govuk-radios__input" id="recommendation-conditional-1"
@@ -156,7 +156,7 @@ This is a new service – your <a class="govuk-link" href="#">feedback</a> will 
                                        type="radio" value="approve"
                                        data-aria-controls="conditional-recommendation-conditional-1">
                                 <label class="govuk-label govuk-radios__label" for="recommendation-conditional-1">
-                                    Recommend for approval
+                                    Yes
                                 </label>
 
                             </div>
@@ -165,12 +165,12 @@ This is a new service – your <a class="govuk-link" href="#">feedback</a> will 
                                     <label class="govuk-label" for="conditional-recommendation-conditional-1">
                                         Recommendations for Licensing team
                                     </label>
-                                    <span id="more-detail-hint" class="govuk-hint">
-    Include any changes to restrictions the Licensing team should make
-  </span>
+                                    <!--<span id="more-detail-hint" class="govuk-hint">-->
+                                    <!--Include any changes to restrictions the Licensing team should make.-->
+                                    <!--</span>-->
                                     <textarea class="govuk-textarea" id="recommendation-approve"
                                               name="recommendation-approve" rows="5"
-                                              aria-describedby="more-detail-hint"></textarea>
+                                              aria-describedby="more-detail-hint">Example of standard wording goes here...</textarea>
                                 </div>
 
                             </div>
@@ -180,7 +180,7 @@ This is a new service – your <a class="govuk-link" href="#">feedback</a> will 
                                        type="radio" value="reject"
                                        data-aria-controls="conditional-recommendation-conditional-2">
                                 <label class="govuk-label govuk-radios__label" for="recommendation-conditional-2">
-                                    Recommend to reject
+                                    No
                                 </label>
                             </div>
                             <div class="govuk-radios__conditional" id="conditional-recommendation-conditional-2">
@@ -189,37 +189,76 @@ This is a new service – your <a class="govuk-link" href="#">feedback</a> will 
                                         Recommendations for Licensing team
                                     </label>
                                     <span id="more-detail-hint" class="govuk-hint">
-    Include any changes to restrictions the Licensing team should make
+Include any changes to restrictions the Licensing team should make
   </span>
-                                    <textarea class="govuk-textarea" id="recommendation-reject"
-                                              name="recommendation-reject" rows="5"
-                                              aria-describedby="more-detail-hint"></textarea>
+                                    <!--Start of Itemised list-->
+                                    <!--<div class="list-item-wrapper-vertical">-->
+                                    <div class="govuk-grid-row">
+                                        <div class="govuk-grid-column-full">
+                                            <div class="govuk-form-group">
+
+                                                <div class="govuk-form-group">
+                                                    <label class="govuk-label govuk-!-font-weight-bold" for="field-1">
+                                                        Point 1
+                                                    </label>
+
+                                                    <textarea class="govuk-textarea govuk-textarea--height-10"
+                                                              id="field-1"
+                                                              name="more-detail" rows="5"
+                                                              aria-describedby="more-detail-hint"></textarea>
+                                                    <!--<input type="text" class="govuk-input" id="field-1"-->
+                                                    <!--name="field-1">-->
+                                                </div>
+
+                                                <div class="govuk-form-group">
+                                                    <label class="govuk-label govuk-!-font-weight-bold" for="field-2">
+                                                        Point 2
+                                                    </label>
+
+                                                    <textarea class="govuk-textarea" id="field-2"
+                                                              name="more-detail" rows="5"
+                                                              aria-describedby="more-detail-hint"></textarea>
+                                                    <!--<input type="text" class="govuk-input" id="field-2"-->
+                                                    <!--name="field-2">-->
+                                                </div>
+
+                                                <!--<div class="govuk-form-group">-->
+                                                    <!--<label class="govuk-label govuk-!-font-weight-bold" for="field-3">-->
+                                                        <!--Point 3-->
+                                                    <!--</label>-->
+
+                                                    <!--<textarea class="govuk-textarea" id="field-3"-->
+                                                              <!--name="more-detail" rows="5"-->
+                                                              <!--aria-describedby="more-detail-hint"></textarea>-->
+                                                    <!--&lt;!&ndash;<input type="text" class="govuk-input" id="field-3"&ndash;&gt;-->
+                                                    <!--&lt;!&ndash;name="field-3">&ndash;&gt;-->
+                                                <!--</div>-->
+                                            <!--</div>-->
+
+                                            <div class="govuk-grid-column-one-third">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <hr/>
+
+                                    <div class="govuk-grid-row">
+                                        <div class="govuk-grid-column-full">
+                                            <div class="govuk-form-group">
+                                                <button id="add-button"
+                                                        class="govuk-button button-add-another-vertical">
+                                                    Add another
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--</div>-->
+
+                                    <!--End of Itemised list-->
                                 </div>
 
                             </div>
-                            <div class="govuk-radios__item">
-                                <input class="govuk-radios__input" id="recommendation-conditional-3"
-                                       name="recommendation"
-                                       type="radio" value="return"
-                                       data-aria-controls="conditional-recommendation-conditional-3">
-                                <label class="govuk-label govuk-radios__label" for="recommendation-conditional-3">
-                                    Return to applicant for more information
-                                </label>
-                            </div>
-                            <div class="govuk-radios__conditional" id="conditional-recommendation-conditional-3">
-                                <div class="govuk-form-group">
-                                    <label class="govuk-label" for="conditional-recommendation-conditional-3">
-                                        Comments
-                                    </label>
-                                    <span id="more-detail-hint" class="govuk-hint">
-    Give details of the information you need
-  </span>
-                                    <textarea class="govuk-textarea" id="return" name="recommendation-return" rows="5"
-                                              aria-describedby="more-detail-hint"></textarea>
-                                </div>
 
-                            </div>
-                        </div>
                     </fieldset>
 
                 </div>
@@ -239,13 +278,14 @@ This is a new service – your <a class="govuk-link" href="#">feedback</a> will 
                 <div class="govuk-!-padding-bottom-5"></div>
 
                 <!--<div class="wrapper">-->
-                    <!--&lt;!&ndash;<a href="check-answers" role="button" class="govuk-button govuk-button">&ndash;&gt;-->
-                        <!--&lt;!&ndash;Confirm&ndash;&gt;-->
-                    <!--&lt;!&ndash;</a> &nbsp; &nbsp;&ndash;&gt;-->
-                    <!--<a href="#" class="govuk-link breakable-text">Save and exit</a>-->
+                <!--&lt;!&ndash;<a href="check-answers" role="button" class="govuk-button govuk-button">&ndash;&gt;-->
+                <!--&lt;!&ndash;Confirm&ndash;&gt;-->
+                <!--&lt;!&ndash;</a> &nbsp; &nbsp;&ndash;&gt;-->
+                <!--<a href="#" class="govuk-link breakable-text">Save and exit</a>-->
                 <!--</div>-->
 
-                <input id="advert-option-next--button" type="submit" value="Confirm" class="govuk-button govuk-button" data-ignore-double-submit="true"> <br>
+                <input id="advert-option-next--button" type="submit" value="Confirm" class="govuk-button govuk-button"
+                       data-ignore-double-submit="true"> <br>
 
                 <a href="#" class="govuk-link">Save and exit</a>
 
@@ -257,13 +297,15 @@ This is a new service – your <a class="govuk-link" href="#">feedback</a> will 
                 <div class="govuk-!-padding-bottom-3"></div>
                 <p class="govuk-body govuk-!-font-size-16 govuk-!-font-weight-bold">
                     Establishment<br>
-                    <a href="https://asl-prototypes.herokuapp.com/establishment?id=103" class="govuk-!-font-weight-bold" target="_blank">
+                    <a href="https://asl-prototypes.herokuapp.com/establishment?id=103" class="govuk-!-font-weight-bold"
+                       target="_blank">
                         University of Birmingham
                     </a></p>
                 <div class="govuk-!-padding-bottom-3"></div>
                 <p class="govuk-body govuk-!-font-size-16 govuk-!-font-weight-bold">
                     Licence number<br>
-                    <a href="https://asl-prototypes.herokuapp.com/details?id=103" class="govuk-!-font-weight-bold" target="_blank">
+                    <a href="https://asl-prototypes.herokuapp.com/details?id=103" class="govuk-!-font-weight-bold"
+                       target="_blank">
                         XXXXXXXX
                     </a></p>
                 <div class="govuk-!-padding-bottom-3"></div>

@@ -122,176 +122,180 @@ This is a new service – your <a class="govuk-link" href="#">feedback</a> will 
 
             <h2 class="govuk-heading-l">Your recommendation</h2>
 
-
-
-
-            <form name="aspnetForm" method="post"
-                  onsubmit="multiNavigation('recommendation', ['approve', 'reject', ''], ['/amend/check-answers-approve', '/amend/check-answers-reject', '']);return false;"
-                  id="aspnetForm" autocomplete="off">
-
-                <div class="govuk-form-group">
-                    <fieldset class="govuk-fieldset">
-                        <legend class="govuk-fieldset__legend govuk-fieldset__legend--m">
-                            <h1 class="govuk-fieldset__heading">
-                                Do you approve all proposed changes?
-                            </h1>
-                        </legend>
-                        <div class="govuk-radios" data-module="radios">
-                            <div class="govuk-radios__item">
-                                <input class="govuk-radios__input" id="recommendation-conditional-1"
-                                       name="recommendation"
-                                       type="radio" value="approve"
-                                       data-aria-controls="conditional-recommendation-conditional-1">
-                                <label class="govuk-label govuk-radios__label" for="recommendation-conditional-1">
-                                    Yes
-                                </label>
-
-                            </div>
-                            <div class="govuk-radios__conditional" id="conditional-recommendation-conditional-1">
-                                <div class="govuk-form-group">
-                                    <label class="govuk-label" for="conditional-recommendation-conditional-1">
-                                        Recommendations for Licensing team
-                                    </label>
-                                    <!--<span id="more-detail-hint" class="govuk-hint">-->
-                                    <!--Include any changes to restrictions the Licensing team should make.-->
-                                    <!--</span>-->
-                                    <textarea class="govuk-textarea" id="recommendation-approve"
-                                              name="recommendation-approve" rows="5"
-                                              aria-describedby="more-detail-hint">Example of standard wording goes here...</textarea>
-                                </div>
-
-                            </div>
-                            <div class="govuk-radios__item">
-                                <input class="govuk-radios__input" id="recommendation-conditional-2"
-                                       name="recommendation"
-                                       type="radio" value="reject"
-                                       data-aria-controls="conditional-recommendation-conditional-2">
-                                <label class="govuk-label govuk-radios__label" for="recommendation-conditional-2">
-                                    No
-                                </label>
-                            </div>
-                            <div class="govuk-radios__conditional" id="conditional-recommendation-conditional-2">
-                                <div class="govuk-form-group">
-                                    <label class="govuk-label" for="conditional-recommendation-conditional-2">
-                                        Recommendations for Licensing team
-                                    </label>
-                                    <span id="more-detail-hint" class="govuk-hint">
-Include any changes to restrictions the Licensing team should make.
-  </span>
-                                    <!--Start of Itemised list-->
-                                    <!--<div class="list-item-wrapper-vertical">-->
-                                    <div class="govuk-grid-row">
-                                        <div class="govuk-grid-column-full">
-                                            <div class="govuk-form-group">
-
-                                                <div class="govuk-form-group">
-                                                    <label class="govuk-label govuk-!-font-weight-bold" for="field-1">
-                                                        Point 1
-                                                    </label>
-
-                                                    <textarea class="govuk-textarea govuk-textarea--height-10"
-                                                              id="field-1"
-                                                              name="more-detail" rows="5"
-                                                              aria-describedby="more-detail-hint"></textarea>
-                                                    <!--<input type="text" class="govuk-input" id="field-1"-->
-                                                    <!--name="field-1">-->
-                                                </div>
-
-                                                <div class="govuk-form-group">
-                                                    <label class="govuk-label govuk-!-font-weight-bold" for="field-2">
-                                                        Point 2
-                                                    </label>
-
-                                                    <textarea class="govuk-textarea" id="field-2"
-                                                              name="more-detail" rows="5"
-                                                              aria-describedby="more-detail-hint"></textarea>
-                                                    <!--<input type="text" class="govuk-input" id="field-2"-->
-                                                    <!--name="field-2">-->
-                                                </div>
-
-                                                <div class="govuk-form-group">
-                                                    <label class="govuk-label govuk-!-font-weight-bold" for="field-3">
-                                                        Point 3
-                                                    </label>
-
-                                                    <textarea class="govuk-textarea" id="field-3"
-                                                              name="more-detail" rows="5"
-                                                              aria-describedby="more-detail-hint"></textarea>
-                                                    <!--<input type="text" class="govuk-input" id="field-3"-->
-                                                    <!--name="field-3">-->
-                                                </div>
-                                            </div>
-
-                                            <div class="govuk-grid-column-one-third">
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <hr/>
-
-                                    <div class="govuk-grid-row">
-                                        <div class="govuk-grid-column-full">
-                                            <div class="govuk-form-group">
-                                                <button id="add-button"
-                                                        class="govuk-button button-add-another-vertical">
-                                                    Add another
-                                                </button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!--</div>-->
-
-                                    <!--End of Itemised list-->
-                                </div>
-
-                            </div>
-
-                    </fieldset>
-
-                </div>
-
-                <details class="govuk-details">
-                    <summary class="govuk-details__summary">
+            <details class="govuk-details">
+                <summary class="govuk-details__summary">
     <span class="govuk-details__summary-text">
       Help with assessment
     </span>
-                    </summary>
-                    <div class="govuk-details__text">
-                        <p>Check that these new or amended areas:</p>
-                        <ul class="govuk-list govuk-list--bullet">
-                            <li>are suitable for the types of animals and use specified</li>
-                            <li>meet the standards in the Code of Practice</li>
-                        </ul>
-                    </div>
-                </details>
-
-                <br>
-
-                <div class="govuk-form-group">
-                    <label class="govuk-label govuk-!-font-weight-bold" for="file-upload-1">
-                        Upload supporting document
-                    </label>
-                    <span id="more-detail-hint" class="govuk-hint">
-    For example, an optional supplementary photo or report.
-  </span>
-                    <input class="govuk-file-upload" id="file-upload-1" name="file-upload-1" type="file">
+                </summary>
+                <div class="govuk-details__text">
+                    <p>Check that these new or amended areas:</p>
+                    <ul class="govuk-list govuk-list--bullet">
+                        <li>are suitable for the types of animals and use specified</li>
+                        <li>meet the standards in the Code of Practice</li>
+                    </ul>
                 </div>
+            </details>
 
-                <div class="govuk-!-padding-bottom-5"></div>
+            <div class="govuk-form-group">
+                <fieldset class="govuk-fieldset">
+                    <legend class="govuk-fieldset__legend govuk-fieldset__legend--m">
+                        <h1 class="govuk-fieldset__heading">
+                            Summarise your points
+                        </h1>
+                        <span id="changed-name-hint" class="govuk-hint">
+    Include any changes to restrictions or details of the information you need
+  </span>
+                    </legend>
 
-                <!--<div class="wrapper">-->
-                <!--&lt;!&ndash;<a href="check-answers" role="button" class="govuk-button govuk-button">&ndash;&gt;-->
-                <!--&lt;!&ndash;Confirm&ndash;&gt;-->
-                <!--&lt;!&ndash;</a> &nbsp; &nbsp;&ndash;&gt;-->
-                <!--<a href="#" class="govuk-link breakable-text">Save and exit</a>-->
-                <!--</div>-->
 
-                <input id="advert-option-next--button" type="submit" value="Confirm" class="govuk-button govuk-button"
-                       data-ignore-double-submit="true"> <br>
+                    <!--Start of Itemised list-->
+                    <!--<div class="list-item-wrapper-vertical">-->
+                    <div class="govuk-grid-row">
+                        <div class="govuk-grid-column-full">
+                            <div class="govuk-form-group">
 
-                <a href="#" class="govuk-link">Save and exit</a>
+                                <div class="govuk-form-group">
+                                    <label class="govuk-label govuk-!-font-weight-bold" for="field-1">
+                                        Point 1
+                                    </label>
+                                    <textarea class="govuk-textarea govuk-textarea--height-10"
+                                              id="field-1"
+                                              name="more-detail" rows="5"
+                                              aria-describedby="more-detail-hint"></textarea>
+                                    <!--<input type="text" class="govuk-input" id="field-1"-->
+                                    <!--name="field-1">-->
+                                </div>
+
+                                <div class="govuk-form-group">
+                                    <label class="govuk-label govuk-!-font-weight-bold" for="field-2">
+                                        Point 2
+                                    </label>
+
+                                    <textarea class="govuk-textarea" id="field-2"
+                                              name="more-detail" rows="5"
+                                              aria-describedby="more-detail-hint"></textarea>
+                                    <!--<input type="text" class="govuk-input" id="field-2"-->
+                                    <!--name="field-2">-->
+                                </div>
+
+                                <!--<div class="govuk-form-group">-->
+                                <!--<label class="govuk-label govuk-!-font-weight-bold" for="field-3">-->
+                                <!--Point 3-->
+                                <!--</label>-->
+
+                                <!--<textarea class="govuk-textarea" id="field-3"-->
+                                <!--name="more-detail" rows="5"-->
+                                <!--aria-describedby="more-detail-hint"></textarea>-->
+                                <!--&lt;!&ndash;<input type="text" class="govuk-input" id="field-3"&ndash;&gt;-->
+                                <!--&lt;!&ndash;name="field-3">&ndash;&gt;-->
+                                <!--</div>-->
+                                <!--</div>-->
+
+                                <!--<div class="govuk-grid-column-one-third">-->
+                                <!--</div>-->
+                                <!--</div>-->
+                            </div>
+
+                            <!--<hr/>-->
+
+                            <div class="govuk-grid-row">
+                                <div class="govuk-grid-column-full">
+                                    <div class="govuk-form-group">
+                                        <button id="add-button"
+                                                class="govuk-button button-add-another-vertical">
+                                            Add another
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--</div>-->
+
+                            <!--End of Itemised list-->
+                        </div>
+                    </div>
+
+            </div>
+
+            </fieldset>
+
+
+            <div class="govuk-form-group">
+                <label class="govuk-label govuk-!-font-weight-bold" for="file-upload-1">
+                    Upload supporting document
+                </label>
+                <span id="more-detail-hint" class="govuk-hint">
+    For example, an optional supplementary photo or report
+  </span>
+                <input class="govuk-file-upload" id="file-upload-1" name="file-upload-1" type="file">
+            </div>
+
+            <!--<div class="govuk-!-padding-bottom-3"></div>-->
+
+
+            <hr class="govuk-section-break govuk-section-break--xl govuk-section-break--visible">
+
+            <div class="govuk-form-group">
+                <fieldset class="govuk-fieldset">
+                    <legend class="govuk-fieldset__legend govuk-fieldset__legend--xl">
+                        <h2 class="govuk-heading-l">Send your recommendation to:</h2>
+                    </legend>
+                    <div class="govuk-radios">
+                        <div class="govuk-radios__item">
+                            <input class="govuk-radios__input" id="where-do-you-live-1" name="where-do-you-live"
+                                   type="radio" value="england">
+                            <label class="govuk-label govuk-radios__label" for="where-do-you-live-1">
+                                Licensing team
+                            </label>
+                        </div>
+                        <div class="govuk-radios__item">
+                            <input class="govuk-radios__input" id="where-do-you-live-2" name="where-do-you-live"
+                                   type="radio" value="scotland">
+                            <label class="govuk-label govuk-radios__label" for="where-do-you-live-2">
+                                applicant for more information
+                            </label>
+                        </div>
+                        <div class="govuk-radios__item">
+                            <input class="govuk-radios__input" id="where-do-you-live-3" name="where-do-you-live"
+                                   type="radio" value="wales">
+                            <label class="govuk-label govuk-radios__label" for="where-do-you-live-3">
+                                another inspector for second opinion
+                            </label>
+                            <!--<div class="govuk-form-group">-->
+                                <!--<label class="govuk-label" for="sort" id="where-do-you-live"-->
+                                       <!--name="where-do-you-live">-->
+                                    <!--Choose inspector-->
+                                <!--</label>-->
+                                <!--<select class="govuk-select" id="sort" name="sort">-->
+                                    <!--<option value="published">Recently published</option>-->
+                                    <!--<option value="updated" selected>Recently updated</option>-->
+                                    <!--<option value="views">Most views</option>-->
+                                    <!--<option value="comments">Most comments</option>-->
+                                <!--</select>-->
+                            <!--</div>-->
+                        </div>
+                    </div>
+
+
+                </fieldset>
+            </div>
+
+            <div class="govuk-!-padding-bottom-5"></div>
+
+            <!--<div class="wrapper">-->
+            <!--&lt;!&ndash;<a href="check-answers" role="button" class="govuk-button govuk-button">&ndash;&gt;-->
+            <!--&lt;!&ndash;Confirm&ndash;&gt;-->
+            <!--&lt;!&ndash;</a> &nbsp; &nbsp;&ndash;&gt;-->
+            <!--<a href="#" class="govuk-link breakable-text">Save and exit</a>-->
+            <!--</div>-->
+
+            <input id="advert-option-next--button" type="submit" value="Confirm" class="govuk-button govuk-button"
+                   data-ignore-double-submit="true"> <br>
+
+            <a href="#" class="govuk-link">Save and exit</a>
 
         </div>
+
 
         <div class="govuk-grid-column-one-third">
 
