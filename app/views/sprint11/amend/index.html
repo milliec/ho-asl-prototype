@@ -139,7 +139,7 @@ This is a new service – your <a class="govuk-link" href="#">feedback</a> will 
 
 
             <form name="aspnetForm" method="post"
-                  onsubmit="multiNavigation('recommendation', ['approve', 'reject', 'return'], ['/amend/check-answers-approve', '/amend/check-answers-reject', '/amend/check-answers-return']);return false;"
+                  onsubmit="multiNavigation('recommendation', ['approve', 'reject', 'return', 'refer'], ['/amend/check-answers-approve', '/amend/check-answers-reject', '/amend/check-answers-return', '/amend/check-answers-refer']);return false;"
                   id="aspnetForm" autocomplete="off">
 
                 <div class="govuk-form-group">
@@ -219,9 +219,36 @@ This is a new service – your <a class="govuk-link" href="#">feedback</a> will 
                                 </div>
 
                             </div>
+                            <div class="govuk-radios__item">
+                                <input class="govuk-radios__input" id="recommendation-conditional-4"
+                                       name="recommendation"
+                                       type="radio" value="refer"
+                                       data-aria-controls="conditional-recommendation-conditional-4">
+                                <label class="govuk-label govuk-radios__label" for="recommendation-conditional-4">
+                                    Refer to another inspector
+                                </label>
+                            </div>
+
+                            <div class="govuk-radios__conditional" id="conditional-recommendation-conditional-4">
+                                <label class="govuk-label" for="select-inspector">
+                                    Select an inspector
+                                </label>
+                                <input class="govuk-input govuk-input--width-10" id="select-inspector"
+                                       name="select-inspector" type="text">
+                                <div class="govuk-!-padding-bottom-5"></div>
+                                <div class="govuk-form-group">
+                                    <label class="govuk-label" for="conditional-recommendation-conditional-4">
+                                        Add your comments
+                                    </label>
+                                    <span id="more-detail-hint" class="govuk-hint">Ensure that you clearly state the reasons why you cannot make a recommendation at this time.
+  </span>
+                                    <textarea class="govuk-textarea" id="return" name="recommendation-return" rows="5"
+                                              aria-describedby="more-detail-hint"></textarea>
+                                </div>
+
+                            </div>
                         </div>
                     </fieldset>
-
                 </div>
 
                 <br>
@@ -239,14 +266,15 @@ This is a new service – your <a class="govuk-link" href="#">feedback</a> will 
                 <div class="govuk-!-padding-bottom-5"></div>
 
                 <!--<div class="wrapper">-->
-                    <!--&lt;!&ndash;<a href="check-answers" role="button" class="govuk-button govuk-button">&ndash;&gt;-->
-                        <!--&lt;!&ndash;Confirm&ndash;&gt;-->
-                    <!--&lt;!&ndash;</a> &nbsp; &nbsp;&ndash;&gt;-->
-                    <!--<a href="#" class="govuk-link breakable-text">Save and exit</a>-->
+                <!--&lt;!&ndash;<a href="check-answers" role="button" class="govuk-button govuk-button">&ndash;&gt;-->
+                <!--&lt;!&ndash;Confirm&ndash;&gt;-->
+                <!--&lt;!&ndash;</a> &nbsp; &nbsp;&ndash;&gt;-->
+                <!--<a href="#" class="govuk-link breakable-text">Save and exit</a>-->
                 <!--</div>-->
 
-                <input id="advert-option-next--button" type="submit" value="Confirm" class="govuk-button govuk-button" data-ignore-double-submit="true"> <br>
-
+                <input id="advert-option-next--button" type="submit" value="Confirm" class="govuk-button govuk-button"
+                       data-ignore-double-submit="true"> <br>
+                
                 <a href="#" class="govuk-link">Save and exit</a>
 
         </div>
@@ -257,13 +285,15 @@ This is a new service – your <a class="govuk-link" href="#">feedback</a> will 
                 <div class="govuk-!-padding-bottom-3"></div>
                 <p class="govuk-body govuk-!-font-size-16 govuk-!-font-weight-bold">
                     Establishment<br>
-                    <a href="https://asl-prototypes.herokuapp.com/establishment?id=103" class="govuk-!-font-weight-bold" target="_blank">
+                    <a href="https://asl-prototypes.herokuapp.com/establishment?id=103" class="govuk-!-font-weight-bold"
+                       target="_blank">
                         University of Birmingham
                     </a></p>
                 <div class="govuk-!-padding-bottom-3"></div>
                 <p class="govuk-body govuk-!-font-size-16 govuk-!-font-weight-bold">
                     Licence number<br>
-                    <a href="https://asl-prototypes.herokuapp.com/details?id=103" class="govuk-!-font-weight-bold" target="_blank">
+                    <a href="https://asl-prototypes.herokuapp.com/details?id=103" class="govuk-!-font-weight-bold"
+                       target="_blank">
                         XXXXXXXX
                     </a></p>
                 <div class="govuk-!-padding-bottom-3"></div>
@@ -277,7 +307,6 @@ This is a new service – your <a class="govuk-link" href="#">feedback</a> will 
         </div>
 
     </div>
-</div>
 </div>
 
 
