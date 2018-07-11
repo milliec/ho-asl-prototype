@@ -1,0 +1,333 @@
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+Research and testing with animals prototype
+{% endblock %}
+
+{% block content %}
+
+<div class="govuk-phase-banner">
+    <p class="govuk-phase-banner__content"><strong class="govuk-tag govuk-phase-banner__content__tag ">
+        Prototype
+    </strong>
+        <span class="govuk-phase-banner__text">
+This is a new service – your <a class="govuk-link" href="#">feedback</a> will help us to improve it.
+</span>
+    </p>
+</div>
+
+<div class="govuk-width-container">
+    <a href="tasks" class="govuk-back-link">Back</a>
+
+    <div class="govuk-!-padding-bottom-4"></div>
+
+    <div class="govuk-grid-row">
+        <div class="govuk-grid-column-full">
+
+            <!--<div style="margin: 30px 0;">-->
+
+            <div class="govuk-grid-row">
+                <div class="govuk-grid-column-two-thirds">
+                    <h2 class="govuk-heading-l">Amend approved area</h2>
+                    <div class="govuk-inset-text">
+                        Submitted by Angela Smith on behalf of William Blanc on 2 June 2018 13:50
+                    </div>
+                </div>
+
+                <div class="govuk-grid-column-one-third" style="text-align: right;">
+                    <!--<a class="button overview"-->
+                    <!--href="#"-->
+                    <!--style=""></a>-->
+                    <!--<a class="govuk-button"-->
+                    <!--onclick=""-->
+                    <!--style="display: none">Add a note</a>-->
+                    <hr class="govuk-section-break govuk-section-break--xl">
+                    <a href="#"
+                       class="govuk-button">Add a note</a>
+                </div>
+            </div>
+
+            <div class="govuk-grid-row">
+
+                <div class="govuk-column-one-third">
+                    <ul class="leftnav">
+                        <li>
+                            <a href="#"
+                               class="leftnavlinks application-details active" data-target="case-details">
+                                Proposed changes
+                                <span class="tag tag--complete" style="display: none;">Complete</span>
+                                <span class="tag tag--risk" style="display: none;">Incomplete</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#"
+                               class="leftnavlinks documents" data-target="documents">
+                                Supporting documents
+                                <span class="tag tag--complete" style="display: none;">Complete</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#"
+                               class="leftnavlinks other-user" data-target="recommendation">
+                                Your recommendation
+                                <span class="tag tag--complete" style="display: none;">Complete</span>
+                            </a>
+                        </li>
+                        <li>
+                            <hr style="margin:0">
+                            <a href="#"
+                               class="leftnavlinks case-notes" data-target="case-notes">
+                                Case notes
+                            </a>
+                        </li>
+                    </ul>
+                </div> <!-- /Tab menu -->
+
+                <div class="govuk-column-two-thirds">
+
+                    <div id="case-details" class="leftnavcontent" style="display: block;">
+                        <form class="check-fields" data-current="case-details">
+
+                            <table class="govuk-table">
+                                <!--<caption class="govuk-table__caption">Caption</caption>-->
+                                <thead class="govuk-table__head">
+                                <tr class="govuk-table__row noBorder">
+                                    <th class="govuk-table__header" scope="col"></th>
+                                    <th class="govuk-table__header" scope="col">Current</th>
+                                    <th class="govuk-table__header" scope="col">Proposed</th>
+                                </tr>
+                                </thead>
+                                <tbody class="govuk-table__body">
+                                <tr class="govuk-table__row noBorder">
+                                    <th class="govuk-table__header" scope="row">Site</th>
+                                    <td class="govuk-table__cell ">Apollo House</td>
+                                    <td class="govuk-table__cell ">Apollo House</td>
+                                </tr>
+                                <tr class="govuk-table__row noBorder">
+                                    <th class="govuk-table__header" scope="row">Area</th>
+                                    <td class="govuk-table__cell ">1/F</td>
+                                    <td class="govuk-table__cell ">1/F</td>
+                                </tr>
+                                <tr class="govuk-table__row noBorder">
+                                    <th class="govuk-table__header" scope="row">Name</th>
+                                    <td class="govuk-table__cell ">LG36</td>
+                                    <td class="govuk-table__cell ">LG36</td>
+                                </tr>
+                                <tr class="govuk-table__row noBorder">
+                                    <th class="govuk-table__header" scope="row">Suitability</th>
+                                    <td class="govuk-table__cell ">SA, AV, DOG</td>
+                                    <td class="govuk-table__cell ">SA, AV, DOG</td>
+                                </tr>
+                                <tr class="govuk-table__row noBorder">
+                                    <th class="govuk-table__header" scope="row">Holding</th>
+                                    <td class="govuk-table__cell ">STH</td>
+                                    <td class="govuk-table__cell "><span class="highlight">LTH</span></td>
+                                </tr>
+                                <tr class="govuk-table__row noBorder">
+                                    <th class="govuk-table__header" scope="row">NACWO</th>
+                                    <td class="govuk-table__cell "><a href="#"
+                                                                      class="govuk-link govuk-link--no-visited-state">Gareth
+                                        Tindal</a></td>
+                                    <td class="govuk-table__cell "><a href="#"
+                                                                      class="govuk-link govuk-link--no-visited-state">Gareth
+                                        Tindall</a></td>
+                                </tr>
+                            </table>
+
+
+                            <div class="flash-card">
+
+                                <h3 class="govuk-heading-m">
+                                    Why are you amending this area?
+                                </h3>
+
+                                <p>The room has been extended significantly to enable us to keep animals for longer
+                                    periods of time.
+                                    We
+                                    have installed 10 more holding pens and installed a state-of-the-art temperature and
+                                    humidity
+                                    control system.
+                                </p>
+                                <p>inspector has visited this new facility, and has agreed that it is now suitable for
+                                    Long Term
+                                    Holding.
+                                </p>
+
+                            </div>
+
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+
+            <hr class="govuk-section-break govuk-section-break--xl govuk-section-break--visible">
+
+            <h2 class="govuk-heading-l">What is your recommendation?</h2>
+
+            <details class="govuk-details">
+                <summary class="govuk-details__summary">
+    <span class="govuk-details__summary-text">
+      Need some help?
+    </span>
+                </summary>
+                <div class="govuk-details__text">
+                    <p>Check that these new or amended areas:</p>
+                    <ul class="govuk-list govuk-list--bullet">
+                        <li>are suitable for the types of animals and use specified</li>
+                        <li>meet the standards in the Code of Practice</li>
+                    </ul>
+                </div>
+            </details>
+
+
+            <form name="aspnetForm" method="post"
+                  onsubmit="multiNavigation('recommendation', ['approve', 'reject', 'return', 'refer'], ['/amend/check-answers-approve', '/amend/check-answers-reject', '/amend/check-answers-return', '/amend/check-answers-refer']);return false;"
+                  id="aspnetForm" autocomplete="off">
+
+                <div class="govuk-form-group">
+                    <fieldset class="govuk-fieldset">
+                        <!--<legend class="govuk-fieldset__legend govuk-fieldset__legend&#45;&#45;m">-->
+                        <!--<h1 class="govuk-fieldset__heading">-->
+                        <!--Text goes here-->
+                        <!--</h1>-->
+                        <!--</legend>-->
+                        <div class="govuk-radios" data-module="radios">
+                            <div class="govuk-radios__item">
+                                <input class="govuk-radios__input" id="recommendation-conditional-1"
+                                       name="recommendation"
+                                       type="radio" value="approve"
+                                       data-aria-controls="conditional-recommendation-conditional-1">
+                                <label class="govuk-label govuk-radios__label" for="recommendation-conditional-1">
+                                    Approve
+                                </label>
+
+                            </div>
+                            <div class="govuk-radios__conditional" id="conditional-recommendation-conditional-1">
+                                <div class="govuk-form-group">
+                                    <label class="govuk-label" for="conditional-recommendation-conditional-1">
+                                        Explain this recommendation
+                                    </label>
+                                    <span id="more-detail-hint" class="govuk-hint">
+    Remember to include your suggestions for any changes to restrictions.
+  </span>
+                                    <textarea class="govuk-textarea" id="recommendation-approve"
+                                              name="recommendation-approve" rows="5"
+                                              aria-describedby="more-detail-hint"></textarea>
+                                </div>
+
+                            </div>
+                            <div class="govuk-radios__item">
+                                <input class="govuk-radios__input" id="recommendation-conditional-2"
+                                       name="recommendation"
+                                       type="radio" value="reject"
+                                       data-aria-controls="conditional-recommendation-conditional-2">
+                                <label class="govuk-label govuk-radios__label" for="recommendation-conditional-2">
+                                    Reject
+                                </label>
+                            </div>
+                            <div class="govuk-radios__conditional" id="conditional-recommendation-conditional-2">
+                                <div class="govuk-form-group">
+                                    <label class="govuk-label" for="conditional-recommendation-conditional-2">
+                                        Explain this recommendation
+                                    </label>
+                                    <span id="more-detail-hint" class="govuk-hint">
+    Remember to include your suggestions for any changes to restrictions.
+  </span>
+                                    <textarea class="govuk-textarea" id="recommendation-reject"
+                                              name="recommendation-reject" rows="5"
+                                              aria-describedby="more-detail-hint"></textarea>
+                                </div>
+
+                            </div>
+                            <div class="govuk-radios__item">
+                                <input class="govuk-radios__input" id="recommendation-conditional-3"
+                                       name="recommendation"
+                                       type="radio" value="return"
+                                       data-aria-controls="conditional-recommendation-conditional-3">
+                                <label class="govuk-label govuk-radios__label" for="recommendation-conditional-3">
+                                    Return to applicant
+                                </label>
+                            </div>
+                            <div class="govuk-radios__conditional" id="conditional-recommendation-conditional-3">
+                                <div class="govuk-form-group">
+                                    <label class="govuk-label" for="conditional-recommendation-conditional-3">
+                                        Add your comments
+                                    </label>
+                                    <span id="more-detail-hint" class="govuk-hint">
+    Ensure that you clearly state the reasons why you cannot make a recommendation at this time.
+  </span>
+                                    <textarea class="govuk-textarea" id="return" name="recommendation-return"
+                                              rows="5"
+                                              aria-describedby="more-detail-hint"></textarea>
+                                </div>
+
+                            </div>
+                            <div class="govuk-radios__item">
+                                <input class="govuk-radios__input" id="recommendation-conditional-4"
+                                       name="recommendation"
+                                       type="radio" value="refer"
+                                       data-aria-controls="conditional-recommendation-conditional-4">
+                                <label class="govuk-label govuk-radios__label" for="recommendation-conditional-4">
+                                    Assign to a different inspector
+                                </label>
+                            </div>
+
+                            <div class="govuk-radios__conditional" id="conditional-recommendation-conditional-4">
+                                <label class="govuk-label" for="select-inspector">
+                                    Select inspector
+                                </label>
+                                <input class="govuk-input govuk-input--width-10" id="select-inspector"
+                                       name="select-inspector" type="text">
+                                <div class="govuk-!-padding-bottom-5"></div>
+                                <div class="govuk-form-group">
+                                    <label class="govuk-label" for="conditional-recommendation-conditional-4">
+                                        Add your comments
+                                    </label>
+                                    <span id="more-detail-hint" class="govuk-hint">Ensure that you clearly state the reasons why you cannot make a recommendation at this time.
+  </span>
+                                    <textarea class="govuk-textarea" id="return" name="recommendation-refer"
+                                              rows="5"
+                                              aria-describedby="more-detail-hint"></textarea>
+                                </div>
+
+                            </div>
+                        </div>
+                    </fieldset>
+                </div>
+
+                <br>
+
+                <div class="govuk-form-group">
+                    <label class="govuk-label govuk-!-font-weight-bold" for="file-upload-1">
+                        Upload supporting documentation
+                    </label>
+                    <span id="more-detail-hint" class="govuk-hint">
+    For example, an optional supplementary photo or report
+  </span>
+                    <input class="govuk-file-upload" id="file-upload-1" name="file-upload-1" type="file">
+                </div>
+
+                <div class="govuk-!-padding-bottom-5"></div>
+
+                <!--<div class="wrapper">-->
+                <!--&lt;!&ndash;<a href="check-answers" role="button" class="govuk-button govuk-button">&ndash;&gt;-->
+                <!--&lt;!&ndash;Confirm&ndash;&gt;-->
+                <!--&lt;!&ndash;</a> &nbsp; &nbsp;&ndash;&gt;-->
+                <!--<a href="#" class="govuk-link breakable-text">Save and exit</a>-->
+                <!--</div>-->
+
+                <input id="advert-option-next--button" type="submit" value="Confirm"
+                       class="govuk-button govuk-button"
+                       data-ignore-double-submit="true"> <br>
+
+                <a href="#" class="govuk-link">Save and exit</a>
+
+        </div>
+
+    </div>
+</div>
+
+
+{% endblock %}
